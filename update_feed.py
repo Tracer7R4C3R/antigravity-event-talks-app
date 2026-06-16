@@ -4,13 +4,10 @@ import json
 import requests
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
-from flask import Flask, jsonify, render_template
 
-app = Flask(__name__)
-
-# Feed URL
 FEED_URL = "https://docs.cloud.google.com/feeds/bigquery-release-notes.xml"
-
+OUTPUT_DIR = "static/data"
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "release-notes.json")
 
 def fetch_and_parse_release_notes():
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -47,7 +44,6 @@ def fetch_and_parse_release_notes():
         current_type = "Feature"
         current_content_nodes = []
 
-        # Parse XML content HTML grouping by h3 tags
         for child in soup.contents:
             if child.name == "h3":
                 if current_content_nodes:
@@ -72,7 +68,6 @@ def fetch_and_parse_release_notes():
             elif child.name is not None or str(child).strip():
                 current_content_nodes.append(child)
 
-        # Append last update
         if current_content_nodes:
             update_html = "".join(str(n) for n in current_content_nodes)
             update_text = re.sub(
@@ -99,27 +94,22 @@ def fetch_and_parse_release_notes():
 
     return entries
 
-
-@app.route("/")
-def index():
-    return render_template("index.html")
-
-
-@app.route("/api/release-notes")
-def release_notes():
-    json_path = os.path.join(app.static_folder, "data", "release-notes.json")
-    if os.path.exists(json_path):
-        try:
-            with open(json_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                return jsonify(data)
-        except Exception as e:
-            print(f"Error reading local JSON: {e}")
-            
+def main():
+    print("Fetching and parsing release notes...")
     data = fetch_and_parse_release_notes()
-    return jsonify(data)
+    
+    if not data:
+        print("No data fetched. Aborting write.")
+        return
 
+    # Ensure output directory exists
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
+    # Save to file
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        
+    print(f"Successfully wrote parsed release notes to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=True)
+    main()

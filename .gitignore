@@ -65,3 +65,6 @@ venv.bak/
 # Operating System Files
 .DS_Store
 Thumbs.db
+
+# Build directory for static site deployment
+public/

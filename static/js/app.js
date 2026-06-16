@@ -132,7 +132,11 @@ async function loadReleaseNotes(isRefresh = false) {
     }
     noResults.style.display = 'none';
 
-    const response = await fetch('/api/release-notes');
+    let fetchUrl = 'static/data/release-notes.json';
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.port !== '') {
+      fetchUrl = '/api/release-notes';
+    }
+    const response = await fetch(fetchUrl);
     if (!response.ok) throw new Error('Failed to fetch release notes.');
     
     releaseNotes = await response.ok ? await response.json() : [];

@@ -1,6 +1,8 @@
 # BigQuery Release Notes Tracker ⚡
 
-A high-fidelity web application built using **Python Flask** and vanilla **HTML, CSS, and JavaScript** that parses Google Cloud BigQuery release notes and offers advanced filtering, search, and social sharing capabilities.
+A high-fidelity web application that parses Google Cloud BigQuery release notes and offers advanced filtering, search, and social sharing capabilities.
+
+🌎 **Live Demo**: **[https://Tracer7R4C3R.github.io/antigravity-event-talks-app/](https://Tracer7R4C3R.github.io/antigravity-event-talks-app/)**
 
 ---
 
@@ -64,9 +66,20 @@ Open your browser and navigate to:
 
 ---
 
+## 🤖 Self-Updating Engine (CI/CD)
+
+This repository stands out by being **100% automated and self-updating**:
+1.  **Scheduled Action**: Every day at midnight UTC, a GitHub Action ([deploy-pages.yml](.github/workflows/deploy-pages.yml)) runs.
+2.  **Parser Execution**: The action runs [update_feed.py](update_feed.py) to fetch and parse the latest BigQuery release notes into [release-notes.json](static/data/release-notes.json).
+3.  **Automatic Push**: If new release notes are found, they are automatically committed and pushed back to the `main` branch.
+4.  **Static Build**: The action runs [build_static.py](build_static.py) to compile the Flask-style templates into standard HTML.
+5.  **GitHub Pages Deployment**: The built files are deployed automatically to the `gh-pages` branch, updating the live website with zero user intervention!
+
+---
+
 ## 🛠️ Built With
 
-*   [Flask](https://flask.palletsprojects.com/) - Python web framework
+*   [Flask](https://flask.palletsprojects.com/) - Python web framework (for local server execution)
 *   [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/) - HTML/XML parsing
 *   [Requests](https://requests.readthedocs.io/) - HTTP requests library
 *   Vanilla HTML5, CSS3 (variables, transitions, animations), and ES6+ JavaScript

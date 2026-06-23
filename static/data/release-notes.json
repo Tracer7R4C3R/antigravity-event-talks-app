@@ -1,6 +1,19 @@
 [
   {
     "id": 0,
+    "date": "June 22, 2026",
+    "updated": "2026-06-22T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>You can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowledge Catalog:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/oracle-transfer#transfer_metadata\">Oracle</a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/mysql-transfer#transfer_metadata\">MySQL</a></li>\n</ul><p>This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "You can use the BigQuery Data Transfer Service to transfer metadata from the following data sources into Knowledge Catalog: Oracle MySQL This feature is in Preview."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -13,7 +26,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -26,7 +39,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -54,7 +67,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -67,7 +80,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -85,7 +98,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -98,7 +111,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "June 08, 2026",
     "updated": "2026-06-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
@@ -136,7 +149,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "June 03, 2026",
     "updated": "2026-06-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026",
@@ -149,7 +162,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "June 02, 2026",
     "updated": "2026-06-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026",
@@ -162,7 +175,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "June 01, 2026",
     "updated": "2026-06-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026",
@@ -175,7 +188,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "May 27, 2026",
     "updated": "2026-05-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026",
@@ -188,7 +201,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "May 26, 2026",
     "updated": "2026-05-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
@@ -201,7 +214,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "May 20, 2026",
     "updated": "2026-05-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
@@ -224,7 +237,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "May 18, 2026",
     "updated": "2026-05-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
@@ -247,7 +260,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "May 15, 2026",
     "updated": "2026-05-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026",
@@ -260,7 +273,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "May 14, 2026",
     "updated": "2026-05-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026",
@@ -273,7 +286,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "May 12, 2026",
     "updated": "2026-05-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026",
@@ -286,7 +299,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "May 08, 2026",
     "updated": "2026-05-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_08_2026",
@@ -299,7 +312,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "May 06, 2026",
     "updated": "2026-05-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026",
@@ -317,7 +330,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "April 30, 2026",
     "updated": "2026-04-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026",
@@ -330,7 +343,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "April 29, 2026",
     "updated": "2026-04-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026",
@@ -353,7 +366,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "April 28, 2026",
     "updated": "2026-04-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026",
@@ -366,7 +379,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "April 23, 2026",
     "updated": "2026-04-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_23_2026",
@@ -379,7 +392,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "April 22, 2026",
     "updated": "2026-04-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
@@ -427,7 +440,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "April 21, 2026",
     "updated": "2026-04-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_21_2026",
@@ -440,7 +453,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "April 20, 2026",
     "updated": "2026-04-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026",
@@ -478,7 +491,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "April 17, 2026",
     "updated": "2026-04-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_17_2026",
@@ -491,7 +504,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "April 16, 2026",
     "updated": "2026-04-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_16_2026",
@@ -514,7 +527,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "April 15, 2026",
     "updated": "2026-04-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_15_2026",
@@ -538,34 +551,6 @@
         "type": "Feature",
         "html": "<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/export-statements#export_to_alloydb\"><code>EXPORT DATA</code>\nstatements</a> to <a href=\"https://docs.cloud.google.com/bigquery/docs/export-to-alloydb\">reverse\nETL BigQuery data to AlloyDB</a>. This feature is\nin <a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
         "text": "You can now use EXPORT DATA statements to reverse ETL BigQuery data to AlloyDB. This feature is in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "April 13, 2026",
-    "updated": "2026-04-13T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_13_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>Support for the <code>AI.AGG</code> function <a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>\nhas been temporarily disabled. We are working to restore this feature as soon as\npossible.</p>",
-        "text": "Support for the AI.AGG function preview has been temporarily disabled. We are working to restore this feature as soon as possible."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>To reduce LLM token consumption and query latency when processing large\ndatasets, enable <a href=\"https://docs.cloud.google.com/bigquery/docs/optimize-ai-functions\">optimized mode</a>\nusing the following <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#managed_ai_functions\">managed AI functions</a>:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-if\"><code>AI.IF</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-classify\"><code>AI.CLASSIFY</code></a></li>\n</ul><p>This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-        "text": "To reduce LLM token consumption and query latency when processing large datasets, enable optimized mode using the following managed AI functions: AI.IF AI.CLASSIFY This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>The following <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#managed_ai_functions\">managed AI functions</a>\nuse Gemini to help you filter, join, rank, and classify your data:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-if\"><code>AI.IF</code></a>:\nFilter and join text and unstructured data (such as images, PDFs, audio, or\nvideo) based on a condition described in natural language.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-score\"><code>AI.SCORE</code></a>:\nRate text and unstructured data (such as images, PDFs, audio, or video) to\nrank your data by quality, similarity, or other criteria.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-classify\"><code>AI.CLASSIFY</code></a>:\nClassify text and unstructured data (such as images, PDFs, audio, or video)\ninto user-defined categories.</li>\n</ul><p>These functions are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "The following managed AI functions use Gemini to help you filter, join, rank, and classify your data: AI.IF: Filter and join text and unstructured data (such as images, PDFs, audio, or video) based on a condition described in natural language. AI.SCORE: Rate text and unstructured data (such as images, PDFs, audio, or video) to rank your data by quality, similarity, or other criteria. AI.CLASSIFY: Classify text and unstructured data (such as images, PDFs, audio, or video) into user-defined categories. These functions are generally available (GA)."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can use <a href=\"https://docs.cloud.google.com/bigquery/docs/create-notebooks#cells\">visualization cells</a> to\nautomatically <a href=\"https://docs.cloud.google.com/bigquery/docs/visualize-data-colab\">generate a visualization</a>\nof any DataFrame in your notebook. You can customize the columns, chart type,\naggregations, colors, labels, and title.</p><p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "You can use visualization cells to automatically generate a visualization of any DataFrame in your notebook. You can customize the columns, chart type, aggregations, colors, labels, and title.This feature is generally available (GA)."
       }
     ]
   }

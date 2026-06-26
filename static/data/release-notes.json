@@ -1,6 +1,24 @@
 [
   {
     "id": 0,
+    "date": "June 25, 2026",
+    "updated": "2026-06-25T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
+    "updates": [
+      {
+        "type": "Change",
+        "html": "<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
+        "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#vector_search\"><code>VECTOR_SEARCH</code> function</a>\nto combine a semantic search with a lexical (keyword) search. This is known as a\nhybrid search. For tables with autonomous embedding generation enabled, you can\nuse <code>HYBRID</code> mode in the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code></a>\nfunction to simplify your search syntax.</p><p>You can also extend a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_vector_index_statement\">vector index</a>\nto include keyword information to improve the speed of the lexical search\nportion of a hybrid search.</p><p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "You can now use the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search. This is known as a hybrid search. For tables with autonomous embedding generation enabled, you can use HYBRID mode in the AI.SEARCH function to simplify your search syntax.You can also extend a vector index to include keyword information to improve the speed of the lexical search portion of a hybrid search.This feature is in Preview."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -18,7 +36,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -31,7 +49,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -44,7 +62,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -57,7 +75,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -85,7 +103,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -98,7 +116,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -116,7 +134,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -129,7 +147,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "June 08, 2026",
     "updated": "2026-06-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
@@ -167,7 +185,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "June 03, 2026",
     "updated": "2026-06-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026",
@@ -180,7 +198,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "June 02, 2026",
     "updated": "2026-06-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026",
@@ -193,7 +211,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "June 01, 2026",
     "updated": "2026-06-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026",
@@ -206,7 +224,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "May 27, 2026",
     "updated": "2026-05-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026",
@@ -219,7 +237,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "May 26, 2026",
     "updated": "2026-05-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
@@ -232,7 +250,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "May 20, 2026",
     "updated": "2026-05-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
@@ -255,7 +273,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "May 18, 2026",
     "updated": "2026-05-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
@@ -278,7 +296,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "May 15, 2026",
     "updated": "2026-05-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026",
@@ -291,7 +309,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "May 14, 2026",
     "updated": "2026-05-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026",
@@ -304,7 +322,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "May 12, 2026",
     "updated": "2026-05-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026",
@@ -317,7 +335,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "May 08, 2026",
     "updated": "2026-05-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_08_2026",
@@ -330,7 +348,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "May 06, 2026",
     "updated": "2026-05-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026",
@@ -348,7 +366,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "April 30, 2026",
     "updated": "2026-04-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026",
@@ -361,7 +379,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "April 29, 2026",
     "updated": "2026-04-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026",
@@ -384,7 +402,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "April 28, 2026",
     "updated": "2026-04-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026",
@@ -397,7 +415,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "April 23, 2026",
     "updated": "2026-04-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_23_2026",
@@ -410,7 +428,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "April 22, 2026",
     "updated": "2026-04-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
@@ -458,7 +476,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "April 21, 2026",
     "updated": "2026-04-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_21_2026",
@@ -471,7 +489,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "April 20, 2026",
     "updated": "2026-04-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026",
@@ -509,7 +527,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "April 17, 2026",
     "updated": "2026-04-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_17_2026",
@@ -518,29 +536,6 @@
         "type": "Feature",
         "html": "<p>Using\n<a href=\"https://docs.cloud.google.com/bigquery/docs/code-asset-folders\">folders</a>\nto organize and control access to single file code assets is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). In addition, you can perform bulk move and delete operations, refresh\nfolder contents, and view full breadcrumb paths based on resource permissions.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-manage-folders\">Create and manage folders</a>.</p>",
         "text": "Using folders to organize and control access to single file code assets is generally available (GA). In addition, you can perform bulk move and delete operations, refresh folder contents, and view full breadcrumb paths based on resource permissions. For more information, see Create and manage folders."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "April 16, 2026",
-    "updated": "2026-04-16T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_16_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics</a> now supports\nquerying Lakehouse tables that connect to the Apache Iceberg REST catalog or are\nfederated to an external catalog. For more information, see <a href=\"https://docs.cloud.google.com/biglake/docs/conversational-analytics\">Query BigLake data\nwith natural language</a>.</p><p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "Conversational analytics now supports querying Lakehouse tables that connect to the Apache Iceberg REST catalog or are federated to an external catalog. For more information, see Query BigLake data with natural language.This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/colab-data-apps\">Colab Data Apps</a>\nto transform your data analyses from Colab notebooks into\npolished, interactive applications.</p><p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now use Colab Data Apps to transform your data analyses from Colab notebooks into polished, interactive applications.This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code> function</a>\nto identify segments of data that cause statistically significant changes to a\nsummable metric.</p><p>This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now use the AI.KEY_DRIVERS function to identify segments of data that cause statistically significant changes to a summable metric.This feature is in Preview."
       }
     ]
   }

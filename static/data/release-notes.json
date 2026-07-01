@@ -1,6 +1,19 @@
 [
   {
     "id": 0,
+    "date": "June 30, 2026",
+    "updated": "2026-06-30T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>You can specify an optional <code>principal</code> property on\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments\">BigQuery reservation assignments</a> to\nroute queries to specific reservations based on the identity of the user,\nservice account, or third-party identity executing the job.</p>",
+        "text": "You can specify an optional principal property on BigQuery reservation assignments to route queries to specific reservations based on the identity of the user, service account, or third-party identity executing the job."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -18,7 +31,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -36,7 +49,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -54,7 +67,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -67,7 +80,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -80,7 +93,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -93,7 +106,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -121,7 +134,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -134,7 +147,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -152,7 +165,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -165,7 +178,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "June 08, 2026",
     "updated": "2026-06-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
@@ -203,7 +216,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "June 03, 2026",
     "updated": "2026-06-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026",
@@ -216,7 +229,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "June 02, 2026",
     "updated": "2026-06-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026",
@@ -229,7 +242,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "June 01, 2026",
     "updated": "2026-06-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026",
@@ -242,7 +255,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "May 27, 2026",
     "updated": "2026-05-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026",
@@ -255,7 +268,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "May 26, 2026",
     "updated": "2026-05-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
@@ -268,7 +281,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "May 20, 2026",
     "updated": "2026-05-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
@@ -291,7 +304,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "May 18, 2026",
     "updated": "2026-05-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
@@ -314,7 +327,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "May 15, 2026",
     "updated": "2026-05-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026",
@@ -327,7 +340,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "May 14, 2026",
     "updated": "2026-05-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026",
@@ -340,7 +353,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "May 12, 2026",
     "updated": "2026-05-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026",
@@ -353,7 +366,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "May 08, 2026",
     "updated": "2026-05-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_08_2026",
@@ -366,7 +379,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "May 06, 2026",
     "updated": "2026-05-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026",
@@ -384,7 +397,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "April 30, 2026",
     "updated": "2026-04-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026",
@@ -397,7 +410,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "April 29, 2026",
     "updated": "2026-04-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026",
@@ -420,7 +433,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "April 28, 2026",
     "updated": "2026-04-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026",
@@ -433,7 +446,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "April 23, 2026",
     "updated": "2026-04-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_23_2026",
@@ -446,7 +459,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "April 22, 2026",
     "updated": "2026-04-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
@@ -494,7 +507,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "April 21, 2026",
     "updated": "2026-04-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_21_2026",
@@ -503,44 +516,6 @@
         "type": "Feature",
         "html": "<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-visualization#visualization-results\">visualize BigQuery graph query results and graph\nschemas</a> directly in\nBigQuery Studio, without the need of a notebook environment. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
         "text": "You can now visualize BigQuery graph query results and graph schemas directly in BigQuery Studio, without the need of a notebook environment. This feature is in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "April 20, 2026",
-    "updated": "2026-04-20T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026",
-    "updates": [
-      {
-        "type": "Change",
-        "html": "<p>Starting July 25, 2026, the <a href=\"https://docs.cloud.google.com/bigquery/docs/facebook-ads-transfer\">BigQuery Data Transfer Service for Facebook Ads\nconnector</a> will update the data type\nmapping for the <code>ActionValue</code> field in the <code>AdInsightsActions</code> report from <code>INT</code>\nto <code>FLOAT</code>.</p>",
-        "text": "Starting July 25, 2026, the BigQuery Data Transfer Service for Facebook Ads connector will update the data type mapping for the ActionValue field in the AdInsightsActions report from INT to FLOAT."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>The following features have been added to <a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python\">Python UDFs</a>\nduring <a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>:</p><ul>\n<li>Vectorized UDFs with Apache Arrow. You can now create <a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#create-vector-udf-apache\">vectorized Python\nUDFs</a>\nusing the Apache Arrow <code>RecordBatch</code> interface for improved performance.</li>\n<li>Cloud Monitoring integration. Python UDFs now export\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#view_python_udf_metrics\">metrics</a>\nto Cloud Monitoring, including CPU utilization, memory utilization, and\nmaximum concurrent requests per instance.</li>\n<li>Container request concurrency. A new option,\n<code>container_request_concurrency</code>, is available for the <code>CREATE FUNCTION</code>\nstatement. This option controls the maximum number of concurrent requests\nper Python UDF container instance.</li>\n<li>New quotas. Python UDFs are now subject to <a href=\"https://docs.cloud.google.com/bigquery/quotas#udf_limits\">new quotas</a>\non image storage bytes (10 GiB per project per region) and mutation rate\n(30 per minute per project per region).</li>\n<li>Cost visibility. Python UDF costs can be seen in the\n<code>external_service_costs</code> column in the <code>INFORMATION_SCHEMA.JOBS</code> view and in\nthe <code>ExternalServiceCosts</code> field in the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/Job#externalservicecost\">Job API</a>.</li>\n</ul>",
-        "text": "The following features have been added to Python UDFs during Preview: Vectorized UDFs with Apache Arrow. You can now create vectorized Python UDFs using the Apache Arrow RecordBatch interface for improved performance. Cloud Monitoring integration. Python UDFs now export metrics to Cloud Monitoring, including CPU utilization, memory utilization, and maximum concurrent requests per instance. Container request concurrency. A new option, container_request_concurrency, is available for the CREATE FUNCTION statement. This option controls the maximum number of concurrent requests per Python UDF container instance. New quotas. Python UDFs are now subject to new quotas on image storage bytes (10 GiB per project per region) and mutation rate (30 per minute per project per region). Cost visibility. Python UDF costs can be seen in the external_service_costs column in the INFORMATION_SCHEMA.JOBS view and in the ExternalServiceCosts field in the Job API."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/external-metastore-lakehouse-migration\">migrate metadata from external data catalogs to BigLake tables for\nApache\nIceberg</a>. This\nfeature supports external data catalogs such as such as Apache Hive Metastore\nand Apache Iceberg REST Catalog. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now migrate metadata from external data catalogs to BigLake tables for Apache Iceberg. This feature supports external data catalogs such as such as Apache Hive Metastore and Apache Iceberg REST Catalog. This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp\">BigQuery MCP server</a>\nto perform a range of data-related tasks with your AI applications including:</p><ul>\n<li>Examining BigQuery resources.</li>\n<li>Generating accurate and efficient SQL queries.</li>\n<li>Securely executing queries.</li>\n<li>Interpreting query results.</li>\n</ul><p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">Generally Available</a>\n(GA).</p>",
-        "text": "You can use the BigQuery MCP server to perform a range of data-related tasks with your AI applications including: Examining BigQuery resources. Generating accurate and efficient SQL queries. Securely executing queries. Interpreting query results. This feature is Generally Available (GA)."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now publish a <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#publish-agent-gemini-enterprise\">BigQuery Conversational Analytics agent in Gemini\nEnterprise</a>.\nThis feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now publish a BigQuery Conversational Analytics agent in Gemini Enterprise. This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/notebooks-introduction#notebook_gallery\">notebook gallery</a>\nin the BigQuery web UI as your central hub for discovering and using prebuilt notebook\ntemplates. This feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "You can now use the notebook gallery in the BigQuery web UI as your central hub for discovering and using prebuilt notebook templates. This feature is generally available (GA)."
       }
     ]
   }

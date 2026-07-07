@@ -1,6 +1,19 @@
 [
   {
     "id": 0,
+    "date": "July 06, 2026",
+    "updated": "2026-07-06T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
+    "updates": [
+      {
+        "type": "Change",
+        "html": "<p>For <a href=\"https://docs.cloud.google.com/bigquery/docs/facebook-ads-transfer\">data transfers from Facebook Ads</a>,\nsupport for the <code>AdInsightsMMM</code> report has been temporarily disabled. Existing\ndata transfers from Facebook Ads that include the <code>AdInsightsMMM</code> report will\ncontinue to run, but the transfer won't include data from the <code>AdInsightsMMM</code>\nreport.</p><p>This change is due to schema changes in the Facebook Ads API.</p><p>For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#Jul06-fb-ads\">July 06, 2026</a>.</p>",
+        "text": "For data transfers from Facebook Ads, support for the AdInsightsMMM report has been temporarily disabled. Existing data transfers from Facebook Ads that include the AdInsightsMMM report will continue to run, but the transfer won't include data from the AdInsightsMMM report.This change is due to schema changes in the Facebook Ads API.For more information, see July 06, 2026."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -13,7 +26,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -26,7 +39,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -44,7 +57,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -62,7 +75,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -80,7 +93,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -93,7 +106,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -106,7 +119,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -119,7 +132,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -147,7 +160,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -160,7 +173,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -178,7 +191,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -191,7 +204,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "June 08, 2026",
     "updated": "2026-06-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
@@ -229,7 +242,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "June 03, 2026",
     "updated": "2026-06-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026",
@@ -242,7 +255,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "June 02, 2026",
     "updated": "2026-06-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026",
@@ -255,7 +268,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "June 01, 2026",
     "updated": "2026-06-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026",
@@ -268,7 +281,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "May 27, 2026",
     "updated": "2026-05-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026",
@@ -281,7 +294,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "May 26, 2026",
     "updated": "2026-05-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
@@ -294,7 +307,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "May 20, 2026",
     "updated": "2026-05-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
@@ -317,7 +330,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "May 18, 2026",
     "updated": "2026-05-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
@@ -340,7 +353,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "May 15, 2026",
     "updated": "2026-05-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026",
@@ -353,7 +366,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "May 14, 2026",
     "updated": "2026-05-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026",
@@ -366,7 +379,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "May 12, 2026",
     "updated": "2026-05-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026",
@@ -379,7 +392,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "May 08, 2026",
     "updated": "2026-05-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_08_2026",
@@ -392,7 +405,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "May 06, 2026",
     "updated": "2026-05-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026",
@@ -410,7 +423,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "April 30, 2026",
     "updated": "2026-04-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026",
@@ -423,7 +436,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "April 29, 2026",
     "updated": "2026-04-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026",
@@ -446,7 +459,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "April 28, 2026",
     "updated": "2026-04-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026",
@@ -459,7 +472,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "April 23, 2026",
     "updated": "2026-04-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_23_2026",
@@ -468,54 +481,6 @@
         "type": "Change",
         "html": "<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_jdbc_driver\">Simba JDBC driver for BigQuery</a>\nis now available.</p>",
         "text": "An updated version of the Simba JDBC driver for BigQuery is now available."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "April 22, 2026",
-    "updated": "2026-04-22T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-modeler\">visual graph modeler</a> in\nBigQuery Studio to define BigQuery graph nodes and edges from your\nBigQuery tables and edit graph schema. This\nfeature is available in <a href=\"https://docs.cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now use the visual graph modeler in BigQuery Studio to define BigQuery graph nodes and edges from your BigQuery tables and edit graph schema. This feature is available in Preview."
-      },
-      {
-        "type": "Announcement",
-        "html": "<p>Dataproc is now called <a href=\"https://docs.cloud.google.com/dataproc/docs/concepts/overview\">Managed Service for Apache Spark</a>. The names for associated API, client\nlibrary, CLI, and Identity and Access Management (IAM) resources remain unchanged.</p>",
-        "text": "Dataproc is now called Managed Service for Apache Spark. The names for associated API, client library, CLI, and Identity and Access Management (IAM) resources remain unchanged."
-      },
-      {
-        "type": "Announcement",
-        "html": "<p>BigLake is now called <a href=\"https://docs.cloud.google.com/biglake/docs/introduction\">Google Cloud Lakehouse</a>.\nBigLake metastore is now called the <a href=\"https://docs.cloud.google.com/biglake/docs/about-blms\">Lakehouse runtime\ncatalog</a>. The names for associated APIs, client\nlibraries, CLI commands, and Identity and Access Management (IAM) remain\nunchanged and still reference BigLake.</p>",
-        "text": "BigLake is now called Google Cloud Lakehouse. BigLake metastore is now called the Lakehouse runtime catalog. The names for associated APIs, client libraries, CLI commands, and Identity and Access Management (IAM) remain unchanged and still reference BigLake."
-      },
-      {
-        "type": "Announcement",
-        "html": "<p>Dataplex Universal Catalog is now called <a href=\"https://docs.cloud.google.com/dataplex/docs/introduction\">Knowledge\nCatalog</a>. The API, client library, CLI, and\nIdentity and Access Management (IAM) names remain unchanged. For more\ninformation, see <a href=\"https://docs.cloud.google.com/dataplex/docs/introduction\">Knowledge Catalog overview</a>.</p>",
-        "text": "Dataplex Universal Catalog is now called Knowledge Catalog. The API, client library, CLI, and Identity and Access Management (IAM) names remain unchanged. For more information, see Knowledge Catalog overview."
-      },
-      {
-        "type": "Announcement",
-        "html": "<p>Looker Studio is now called <a href=\"https://docs.cloud.google.com/data-studio\">Data Studio</a>.\nThe website and endpoint change from <code>lookerstudio.google.com</code> to\n<code>datastudio.google.com</code>. You do not need to update your reports for this change,\nas Data Studio automatically redirects to the new domain. However,\nif your company uses proxies to restrict access to external sites, your IT\nadministrator needs to add the new domain to your access control list (ACL).\nThe names for associated API, client library, CLI, and Identity and Access\nManagement (IAM) resources remain unchanged. For more information, see <a href=\"https://cloud.google.com/blog/products/data-analytics/looker-studio-is-data-studio\">Data Studio returns as new home for Data Cloud\nassets</a>.</p>",
-        "text": "Looker Studio is now called Data Studio. The website and endpoint change from lookerstudio.google.com to datastudio.google.com. You do not need to update your reports for this change, as Data Studio automatically redirects to the new domain. However, if your company uses proxies to restrict access to external sites, your IT administrator needs to add the new domain to your access control list (ACL). The names for associated API, client library, CLI, and Identity and Access Management (IAM) resources remain unchanged. For more information, see Data Studio returns as new home for Data Cloud assets."
-      },
-      {
-        "type": "Feature",
-        "html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery graphs</a> now support the following\nfeatures:</p><ul>\n<li>You can <a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#graphs\">query graphs</a> using\nnatural language in Conversational Analytics.</li>\n<li>You can add\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-schema-statements#element_table_property_definition\">descriptions and synonyms</a> to the labels and properties in your graphs.</li>\n<li>For some types of graphs you can\n<a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">define measures</a>, which lock an aggregation\nto a key to help you perform complex aggregations without overcounting. To\nquery measures, you transform your graph into a flattened table by using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-sql-queries#graph_expand\"><code>GRAPH_EXPAND</code> TVF</a>,\nand then query measures in that table with the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#agg\"><code>AGG</code> function</a>.</li>\n</ul><p>These features are in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "BigQuery graphs now support the following features: You can query graphs using natural language in Conversational Analytics. You can add descriptions and synonyms to the labels and properties in your graphs. For some types of graphs you can define measures, which lock an aggregation to a key to help you perform complex aggregations without overcounting. To query measures, you transform your graph into a flattened table by using the GRAPH_EXPAND TVF, and then query measures in that table with the AGG function. These features are in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines\">use the Data Engineering Agent</a>\nto build, modify, and troubleshoot data pipelines in BigQuery. This feature is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a> (GA).</p>",
-        "text": "You can now use the Data Engineering Agent to build, modify, and troubleshoot data pipelines in BigQuery. This feature is generally available (GA)."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use the <code>gemini-embedding-2-preview</code> model in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed\"><code>AI.EMBED</code></a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-similarity\"><code>AI.SIMILARITY</code></a>,\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-generate-embedding\"><code>AI.GENERATE_EMBEDDING</code></a>\nfunctions to generate a single embedding from a combination of input types,\nincluding text, image, audio, video, and PDF files.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now use the gemini-embedding-2-preview model in the AI.EMBED, AI.SIMILARITY, and AI.GENERATE_EMBEDDING functions to generate a single embedding from a combination of input types, including text, image, audio, video, and PDF files. This feature is in Preview."
       }
     ]
   }

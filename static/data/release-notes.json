@@ -1,6 +1,49 @@
 [
   {
     "id": 0,
+    "date": "July 13, 2026",
+    "updated": "2026-07-13T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>Table partitioning, multi-statement transactions, and advanced runtime are now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA) for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/biglake-iceberg-tables-in-bigquery\">Apache Iceberg managed tables</a>.</p>",
+        "text": "Table partitioning, multi-statement transactions, and advanced runtime are now generally available (GA) for Apache Iceberg managed tables."
+      },
+      {
+        "type": "Security",
+        "html": "<p>A Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dataform, and Colab Enterprise. An authenticated attacker could\npotentially escalate permissions and perform cross-tenant repository takeover.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/support/bulletins#gcp-2026-047\">GCP-2026-047</a> security bulletin.</p>",
+        "text": "A Missing Authorization vulnerability was discovered in repositories in BigQuery, Dataform, and Colab Enterprise. An authenticated attacker could potentially escalate permissions and perform cross-tenant repository takeover. For more information, see the GCP-2026-047 security bulletin."
+      },
+      {
+        "type": "Feature",
+        "html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-workload-management#scheduling-policies\">Project caps (also known as scheduling policies)</a>\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "Project caps (also known as scheduling policies) let you limit maximum slots and concurrency per project within a BigQuery reservation. This feature is in Preview."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>The BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-web-ui#open-overview\"><strong>Overview</strong> page</a>\nis a hub for discovering tutorials, features, and resources to help you get the\nmost out of BigQuery. It provides guided paths for users of all skill levels.\nThis feature is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "The BigQuery Overview page is a hub for discovering tutorials, features, and resources to help you get the most out of BigQuery. It provides guided paths for users of all skill levels. This feature is now generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/use-bigquery-migration-mcp\">BigQuery Migration Service MCP server</a>\nto perform SQL translation tasks, including translating SQL queries into\nGoogleSQL syntax, generating DDL statements from SQL input queries, and getting\nexplanations of SQL translations.</p><p>This feature is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Generally Available</a>.</p>",
+        "text": "You can use the BigQuery Migration Service MCP server to perform SQL translation tasks, including translating SQL queries into GoogleSQL syntax, generating DDL statements from SQL input queries, and getting explanations of SQL translations.This feature is Generally Available."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>Incremental data transfers for the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/salesforce-transfer\">BigQuery Data Transfer Service for Salesforce</a>\nare now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "Incremental data transfers for the BigQuery Data Transfer Service for Salesforce are now generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#alter_search_index_statement\"><code>ALTER SEARCH INDEX</code> DDL statement</a>\nto\n<a href=\"https://docs.cloud.google.com/bigquery/docs/search-index#update_a_search_index\">update the configuration</a>\nof a search index. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "You can now use the ALTER SEARCH INDEX DDL statement to update the configuration of a search index. This feature is in Preview."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "July 09, 2026",
     "updated": "2026-07-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026",
@@ -23,7 +66,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "July 08, 2026",
     "updated": "2026-07-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026",
@@ -41,7 +84,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "July 06, 2026",
     "updated": "2026-07-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
@@ -54,7 +97,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -67,7 +110,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -76,11 +119,16 @@
         "type": "Feature",
         "html": "<p>You can specify an optional <code>principal</code> property on\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments\">BigQuery reservation assignments</a> to\nroute queries to specific reservations based on the identity of the user,\nservice account, or third-party identity executing the job.</p>",
         "text": "You can specify an optional principal property on BigQuery reservation assignments to route queries to specific reservations based on the identity of the user, service account, or third-party identity executing the job."
+      },
+      {
+        "type": "Change",
+        "html": "<p>In the Google Cloud console, <strong>Capacity management</strong> has been renamed <a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-intro\"><strong>Workload management</strong></a>.</p>",
+        "text": "In the Google Cloud console, Capacity management has been renamed Workload management."
       }
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -98,7 +146,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -116,7 +164,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -134,7 +182,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -147,7 +195,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -160,7 +208,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -173,7 +221,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -201,7 +249,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -214,7 +262,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -232,7 +280,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -245,7 +293,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "June 08, 2026",
     "updated": "2026-06-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
@@ -283,7 +331,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "June 03, 2026",
     "updated": "2026-06-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026",
@@ -296,7 +344,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "June 02, 2026",
     "updated": "2026-06-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026",
@@ -309,7 +357,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "June 01, 2026",
     "updated": "2026-06-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026",
@@ -322,7 +370,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "May 27, 2026",
     "updated": "2026-05-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026",
@@ -335,7 +383,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "May 26, 2026",
     "updated": "2026-05-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
@@ -348,7 +396,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "May 20, 2026",
     "updated": "2026-05-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
@@ -371,7 +419,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "May 18, 2026",
     "updated": "2026-05-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
@@ -394,7 +442,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "May 15, 2026",
     "updated": "2026-05-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026",
@@ -407,7 +455,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "May 14, 2026",
     "updated": "2026-05-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026",
@@ -420,7 +468,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "May 12, 2026",
     "updated": "2026-05-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026",
@@ -433,7 +481,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "May 08, 2026",
     "updated": "2026-05-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_08_2026",
@@ -446,7 +494,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "May 06, 2026",
     "updated": "2026-05-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026",
@@ -464,7 +512,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "April 30, 2026",
     "updated": "2026-04-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026",
@@ -473,29 +521,6 @@
         "type": "Breaking",
         "html": "<p>Starting May 7, 2026, new transfer configurations that transfer data from Google Ads using the\nBigQuery Data Transfer Service will require <a href=\"https://ads-developers.googleblog.com/2026/04/multi-factor-authentication-requirement.html\">Multi-factor authentication (MFA)\nfor individual user\nauthentication</a>.\nFor more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#May7-google-ads\">May 7,\n2026</a>.</p>",
         "text": "Starting May 7, 2026, new transfer configurations that transfer data from Google Ads using the BigQuery Data Transfer Service will require Multi-factor authentication (MFA) for individual user authentication. For more information, see May 7, 2026."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "April 29, 2026",
-    "updated": "2026-04-29T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026",
-    "updates": [
-      {
-        "type": "Breaking",
-        "html": "<p><a href=\"https://docs.cloud.google.com/dataform/docs/strict-act-as-mode\">Strict act-as mode</a>\nis enforced globally for all Dataform repositories, requiring the use of a\ncustom service account or user credentials for running Dataform workflows,\nBigQuery pipelines, notebooks, and data preparations.</p>",
-        "text": "Strict act-as mode is enforced globally for all Dataform repositories, requiring the use of a custom service account or user credentials for running Dataform workflows, BigQuery pipelines, notebooks, and data preparations."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/vectorindex_functions#vector_indexstatistics\"><code>VECTOR_INDEX.STATISTICS</code> function</a> to calculate how much an indexed table's data has drifted between when a\nvector index was created and the present. If table data has changed enough\nto require a <a href=\"https://docs.cloud.google.com/bigquery/docs/vector-index#rebuild_a_vector_index\">vector index rebuild</a>, you can use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#alter_vector_index_rebuild_statement\"><code>ALTER VECTOR INDEX REBUILD</code> statement</a>\nto rebuild the vector index without downtime. These features are\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "You can now use the VECTOR_INDEX.STATISTICS function to calculate how much an indexed table's data has drifted between when a vector index was created and the present. If table data has changed enough to require a vector index rebuild, you can use the ALTER VECTOR INDEX REBUILD statement to rebuild the vector index without downtime. These features are generally available (GA)."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use the <code>PARTITION BY</code> clause of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_vector_index_statement\"><code>CREATE VECTOR INDEX</code> statement</a>\nto <a href=\"https://docs.cloud.google.com/bigquery/docs/vector-index#partitions\">partition TreeAH vector indexes</a>.\nPartitioning enables partition pruning and can decrease I/O costs. This feature\nis <a href=\"https://cloud.google.com/products/#product-launch-stages\">Generally Available</a>.</p>",
-        "text": "You can now use the PARTITION BY clause of the CREATE VECTOR INDEX statement to partition TreeAH vector indexes. Partitioning enables partition pruning and can decrease I/O costs. This feature is Generally Available."
       }
     ]
   }

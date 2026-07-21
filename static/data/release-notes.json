@@ -1,6 +1,24 @@
 [
   {
     "id": 0,
+    "date": "July 20, 2026",
+    "updated": "2026-07-20T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p><a href=\"https://docs.cloud.google.com/lakehouse/docs/introduction\"><em>Lakehouse for Apache Iceberg</em></a>: Cross-cloud\nLakehouse now supports integration with SAP Business Data Cloud\n(BDC) in Preview.</p><p>This update includes the following features:</p><ul>\n<li><strong>Federation from SAP BDC:</strong> Create Delta Sharing catalogs in\nLakehouse to automatically synchronize shares, schemas, and\ntables from SAP BDC.</li>\n<li><strong>Querying SAP data:</strong> Query synchronized SAP BDC tables directly from\nBigQuery without data migration.</li>\n<li><strong>Publishing to SAP BDC:</strong> Publish Apache Iceberg REST catalog (IRC) tables\nor Knowledge Catalog Data Products from\nLakehouse directly to SAP BDC, allowing SAP users and\napplications to consume Google Cloud data directly as remote tables\nin SAP Datasphere without migrating data.</li>\n</ul><p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-lakehouse-sap-bdc\">Set up cross-cloud Lakehouse for SAP\nBDC</a>, <a href=\"https://docs.cloud.google.com/lakehouse/docs/query-sap-data\">Query SAP BDC\ndata</a>, and <a href=\"https://docs.cloud.google.com/lakehouse/docs/publish-data-to-sap-bdc\">Publish Lakehouse\ntables to SAP BDC</a>.</p>",
+        "text": "Lakehouse for Apache Iceberg: Cross-cloud Lakehouse now supports integration with SAP Business Data Cloud (BDC) in Preview.This update includes the following features: Federation from SAP BDC: Create Delta Sharing catalogs in Lakehouse to automatically synchronize shares, schemas, and tables from SAP BDC. Querying SAP data: Query synchronized SAP BDC tables directly from BigQuery without data migration. Publishing to SAP BDC: Publish Apache Iceberg REST catalog (IRC) tables or Knowledge Catalog Data Products from Lakehouse directly to SAP BDC, allowing SAP users and applications to consume Google Cloud data directly as remote tables in SAP Datasphere without migrating data. For more information, see Set up cross-cloud Lakehouse for SAP BDC, Query SAP BDC data, and Publish Lakehouse tables to SAP BDC."
+      },
+      {
+        "type": "Issue",
+        "html": "<p><a href=\"https://docs.cloud.google.com/lakehouse/docs/introduction\"><em>Lakehouse for Apache Iceberg</em></a>: Data Products with\nspecial characters, such as \"/\" or \"-\", are not supported and will not be\navailable in BigQuery even if shared from SAP BDC to\nBigQuery. If you share a Data Product with special characters,\nthis could cause the stop a refresh and require\nre-enrollment. Known SAP systems producing these Data Products include\nSAP Business Warehouse (BW) sources and SAP SuccessFactors.</p>",
+        "text": "Lakehouse for Apache Iceberg: Data Products with special characters, such as \"/\" or \"-\", are not supported and will not be available in BigQuery even if shared from SAP BDC to BigQuery. If you share a Data Product with special characters, this could cause the stop a refresh and require re-enrollment. Known SAP systems producing these Data Products include SAP Business Warehouse (BW) sources and SAP SuccessFactors."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "July 15, 2026",
     "updated": "2026-07-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026",
@@ -13,7 +31,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "July 14, 2026",
     "updated": "2026-07-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
@@ -31,7 +49,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "July 13, 2026",
     "updated": "2026-07-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -74,7 +92,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "July 09, 2026",
     "updated": "2026-07-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026",
@@ -97,7 +115,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "July 08, 2026",
     "updated": "2026-07-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026",
@@ -115,7 +133,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "July 06, 2026",
     "updated": "2026-07-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
@@ -128,7 +146,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -141,7 +159,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -159,7 +177,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -177,7 +195,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -195,7 +213,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -213,7 +231,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -226,7 +244,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -239,7 +257,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -252,7 +270,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -280,7 +298,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -293,7 +311,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -311,7 +329,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -324,7 +342,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "June 08, 2026",
     "updated": "2026-06-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
@@ -362,7 +380,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "June 03, 2026",
     "updated": "2026-06-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026",
@@ -375,7 +393,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "June 02, 2026",
     "updated": "2026-06-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026",
@@ -388,7 +406,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "June 01, 2026",
     "updated": "2026-06-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026",
@@ -401,7 +419,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "May 27, 2026",
     "updated": "2026-05-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026",
@@ -414,7 +432,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "May 26, 2026",
     "updated": "2026-05-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
@@ -427,7 +445,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "May 20, 2026",
     "updated": "2026-05-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
@@ -450,7 +468,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "May 18, 2026",
     "updated": "2026-05-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
@@ -473,7 +491,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "May 15, 2026",
     "updated": "2026-05-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026",
@@ -486,7 +504,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "May 14, 2026",
     "updated": "2026-05-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026",
@@ -499,7 +517,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "May 12, 2026",
     "updated": "2026-05-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026",
@@ -508,19 +526,6 @@
         "type": "Feature",
         "html": "<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-count-tokens\"><code>AI.COUNT_TOKENS</code> function</a>\nto estimate the token count of text input that you provide. For some generative\nAI functions, you can <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#token_usage\">view</a>\nthe total number of input, output, thought, and cache tokens for each modality\nprocessed by the query. These features are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
         "text": "You can now use the AI.COUNT_TOKENS function to estimate the token count of text input that you provide. For some generative AI functions, you can view the total number of input, output, thought, and cache tokens for each modality processed by the query. These features are in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "May 08, 2026",
-    "updated": "2026-05-08T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_08_2026",
-    "updates": [
-      {
-        "type": "Announcement",
-        "html": "<p>Starting August 11, 2026, the billing label for the BigQuery Data Transfer\nService SKU will be updated from <code>goog-bq-feature-type: DATA_TRANSFER_SERVICE</code>\n(uppercase) to <code>goog-bq-feature-type: data_transfer_service</code> (lowercase) to\nprovide a more unified and complete view of your costs. This update expands the\nscope of the label to cover all costs associated with the BigQuery Data Transfer\nService, including data transfer orchestration, data load operations, and data\nmerge operations.</p><p>To ensure uninterrupted cost visibility, update your billing exports,\ndashboards, and reporting queries to include both these labels.</p>",
-        "text": "Starting August 11, 2026, the billing label for the BigQuery Data Transfer Service SKU will be updated from goog-bq-feature-type: DATA_TRANSFER_SERVICE (uppercase) to goog-bq-feature-type: data_transfer_service (lowercase) to provide a more unified and complete view of your costs. This update expands the scope of the label to cover all costs associated with the BigQuery Data Transfer Service, including data transfer orchestration, data load operations, and data merge operations.To ensure uninterrupted cost visibility, update your billing exports, dashboards, and reporting queries to include both these labels."
       }
     ]
   }

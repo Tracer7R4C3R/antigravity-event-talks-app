@@ -1,6 +1,24 @@
 [
   {
     "id": 0,
+    "date": "July 30, 2026",
+    "updated": "2026-07-30T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>You can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines#add_a_pipeline_task\">Add a pipeline task</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+        "text": "You can add tables, views, data sources, and data quality tests as tasks to BigQuery pipelines. For more information, see Add a pipeline task. This feature is generally available."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the <code>tabledata.list</code> method now include a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/auditlogs/rest/Shared.Types/BigQueryAuditMetadata.html#BigQueryAuditMetadata.TableDataRead.FIELDS.ui_download_request\"><code>uiDownloadRequest</code></a>\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can audit when users download query results by using the BigQuery console. Data Access audit logs for the tabledata.list method now include a uiDownloadRequest field to indicate whether the request was triggered by a UI download. This feature is generally available (GA)."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "July 29, 2026",
     "updated": "2026-07-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
@@ -13,7 +31,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "July 27, 2026",
     "updated": "2026-07-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
@@ -41,7 +59,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "July 23, 2026",
     "updated": "2026-07-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026",
@@ -54,7 +72,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "July 20, 2026",
     "updated": "2026-07-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026",
@@ -72,7 +90,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "July 15, 2026",
     "updated": "2026-07-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026",
@@ -85,7 +103,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "July 14, 2026",
     "updated": "2026-07-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
@@ -103,7 +121,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "July 13, 2026",
     "updated": "2026-07-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -146,7 +164,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "July 09, 2026",
     "updated": "2026-07-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026",
@@ -169,7 +187,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "July 08, 2026",
     "updated": "2026-07-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026",
@@ -187,7 +205,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "July 06, 2026",
     "updated": "2026-07-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
@@ -200,7 +218,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -213,7 +231,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -231,7 +249,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -249,7 +267,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -267,7 +285,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -285,7 +303,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -298,7 +316,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -311,7 +329,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -324,7 +342,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -352,7 +370,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -365,7 +383,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -383,7 +401,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -396,7 +414,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "June 08, 2026",
     "updated": "2026-06-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
@@ -434,7 +452,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "June 03, 2026",
     "updated": "2026-06-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026",
@@ -447,7 +465,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "June 02, 2026",
     "updated": "2026-06-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026",
@@ -460,7 +478,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "June 01, 2026",
     "updated": "2026-06-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026",
@@ -473,7 +491,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "May 27, 2026",
     "updated": "2026-05-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026",
@@ -486,7 +504,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "May 26, 2026",
     "updated": "2026-05-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
@@ -499,7 +517,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "May 20, 2026",
     "updated": "2026-05-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026",
@@ -518,29 +536,6 @@
         "type": "Feature",
         "html": "<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-agg\"><code>AI.AGG</code> function</a>\nto semantically aggregate unstructured input data based on natural language\ninstructions. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
         "text": "You can now use the AI.AGG function to semantically aggregate unstructured input data based on natural language instructions. This feature is in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "May 18, 2026",
-    "updated": "2026-05-18T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>You can\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-tasks#prioritize_idle_slots_with_reservation_groups\">group reservations</a>\ntogether to prioritize idle slot sharing within the group. Reservations within a\nreservation group share idle slots with each other before making them available\nto other reservations in the project, giving you more control over slot\nallocation for high-priority workloads. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "You can group reservations together to prioritize idle slot sharing within the group. Reservations within a reservation group share idle slots with each other before making them available to other reservations in the project, giving you more control over slot allocation for high-priority workloads. This feature is generally available (GA)."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use a <a href=\"https://docs.cloud.google.com/bigquery/docs/custom-constraints\">custom organization policy</a>\nto allow or deny specific operations on workload management resources including\nreservations, assignments, capacity commitments, and BI reservations. This\nfeature is in <a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now use a custom organization policy to allow or deny specific operations on workload management resources including reservations, assignments, capacity commitments, and BI reservations. This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can manage and version control SQL scripts and notebooks with\n<a href=\"https://docs.cloud.google.com/bigquery/docs/git-repositories\">BigQuery Studio Git repositories</a>,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>.</p>",
-        "text": "You can manage and version control SQL scripts and notebooks with BigQuery Studio Git repositories, which provide a streamlined, folder-based integration with remote Git repositories. This feature is in preview."
       }
     ]
   }

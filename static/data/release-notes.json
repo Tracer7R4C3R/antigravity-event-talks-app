@@ -1,6 +1,29 @@
 [
   {
     "id": 0,
+    "date": "August 03, 2026",
+    "updated": "2026-08-03T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>You can now use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/cross-cloud-connections\">cross-cloud connections</a> to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery regions. These\nconnections let you use more BigQuery features and are more cost efficient than\nstandard connections that use BigQuery Omni. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+        "text": "You can now use cross-cloud connections to query data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions. These connections let you use more BigQuery features and are more cost efficient than standard connections that use BigQuery Omni. This feature is in Preview."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>The JDBC driver for BigQuery now supports\n<a href=\"https://docs.cloud.google.com/bigquery/docs/jdbc-for-bigquery#opentelemetry\">OpenTelemetry</a> for tracing and\nlogging, which helps you monitor the performance of your database interactions\nand troubleshoot issues.\n<a href=\"https://docs.cloud.google.com/bigquery/docs/jdbc-for-bigquery#zero-config-gcp-telemetry\">Automatic exports to Google Cloud Observability</a>\nare also available. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "The JDBC driver for BigQuery now supports OpenTelemetry for tracing and logging, which helps you monitor the performance of your database interactions and troubleshoot issues. Automatic exports to Google Cloud Observability are also available. This feature is generally available (GA)."
+      },
+      {
+        "type": "Announcement",
+        "html": "<p>Support for hybrid search (using the <code>VECTOR_SEARCH</code> function to combine a\nsemantic search with a lexical (keyword) search) has been restored. Using\n<code>HYBRID</code> mode in the <code>AI.SEARCH</code> function has also been restored.</p>",
+        "text": "Support for hybrid search (using the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search) has been restored. Using HYBRID mode in the AI.SEARCH function has also been restored."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "July 30, 2026",
     "updated": "2026-07-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
@@ -18,7 +41,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "July 29, 2026",
     "updated": "2026-07-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
@@ -31,7 +54,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "July 27, 2026",
     "updated": "2026-07-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
@@ -64,7 +87,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "July 23, 2026",
     "updated": "2026-07-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026",
@@ -77,7 +100,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "July 20, 2026",
     "updated": "2026-07-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026",
@@ -95,7 +118,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "July 15, 2026",
     "updated": "2026-07-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026",
@@ -108,7 +131,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "July 14, 2026",
     "updated": "2026-07-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
@@ -126,7 +149,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "July 13, 2026",
     "updated": "2026-07-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -174,7 +197,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "July 09, 2026",
     "updated": "2026-07-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026",
@@ -197,7 +220,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "July 08, 2026",
     "updated": "2026-07-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026",
@@ -215,7 +238,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "July 06, 2026",
     "updated": "2026-07-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
@@ -228,7 +251,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -241,7 +264,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -259,7 +282,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -277,7 +300,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -300,7 +323,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -318,7 +341,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -331,7 +354,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -344,7 +367,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -357,7 +380,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -385,7 +408,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -403,7 +426,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -426,7 +449,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -439,7 +462,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "June 08, 2026",
     "updated": "2026-06-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
@@ -477,7 +500,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "June 05, 2026",
     "updated": "2026-06-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_05_2026",
@@ -490,7 +513,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "June 03, 2026",
     "updated": "2026-06-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026",
@@ -503,7 +526,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "June 02, 2026",
     "updated": "2026-06-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026",
@@ -516,7 +539,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "June 01, 2026",
     "updated": "2026-06-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026",
@@ -529,7 +552,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "May 27, 2026",
     "updated": "2026-05-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026",
@@ -538,24 +561,6 @@
         "type": "Change",
         "html": "<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
         "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "May 26, 2026",
-    "updated": "2026-05-26T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p><em>Lakehouse</em> now supports using Apache Spark and Apache Hive with\nthe Lakehouse runtime catalog and the Hive catalog. This integration\nlets you use the metastore as a serverless, central metadata layer, enabling\nseamless data sharing and unified querying across Spark, Hive, and\nBigQuery using supported environments (such as\nManaged Service for Apache Spark).</p><p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-spark-hive-metastore\">About Hive Catalogs in\nLakehouse runtime catalog</a>\nand <a href=\"https://docs.cloud.google.com/lakehouse/docs/use-spark-hive-metastore\">Use Spark and Hive with the\nLakehouse runtime catalog</a>.</p>",
-        "text": "Lakehouse now supports using Apache Spark and Apache Hive with the Lakehouse runtime catalog and the Hive catalog. This integration lets you use the metastore as a serverless, central metadata layer, enabling seamless data sharing and unified querying across Spark, Hive, and BigQuery using supported environments (such as Managed Service for Apache Spark).For more information, see About Hive Catalogs in Lakehouse runtime catalog and Use Spark and Hive with the Lakehouse runtime catalog."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/colab-data-science-agent\">Data Science Agent</a> (DSA) for\nColab Enterprise and BigQuery is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally\navailable</a> (GA).</p>",
-        "text": "The Data Science Agent (DSA) for Colab Enterprise and BigQuery is now generally available (GA)."
       }
     ]
   }

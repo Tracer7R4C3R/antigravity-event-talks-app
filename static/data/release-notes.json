@@ -1,6 +1,19 @@
 [
   {
     "id": 0,
+    "date": "August 18, 2026",
+    "updated": "2026-08-18T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>The default per-project limit of user-specific\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments#assignment-logic-and-criteria\">reservation assignments</a>\nhas been increased from 10 to 100.</p>",
+        "text": "The default per-project limit of user-specific reservation assignments has been increased from 10 to 100."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "August 13, 2026",
     "updated": "2026-08-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026",
@@ -13,7 +26,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "August 12, 2026",
     "updated": "2026-08-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026",
@@ -26,7 +39,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "August 11, 2026",
     "updated": "2026-08-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026",
@@ -39,7 +52,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "August 10, 2026",
     "updated": "2026-08-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026",
@@ -52,7 +65,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "August 03, 2026",
     "updated": "2026-08-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
@@ -75,7 +88,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "July 30, 2026",
     "updated": "2026-07-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
@@ -93,7 +106,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "July 29, 2026",
     "updated": "2026-07-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
@@ -106,7 +119,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "July 27, 2026",
     "updated": "2026-07-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
@@ -139,7 +152,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "July 23, 2026",
     "updated": "2026-07-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026",
@@ -152,7 +165,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "July 20, 2026",
     "updated": "2026-07-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026",
@@ -170,7 +183,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "July 15, 2026",
     "updated": "2026-07-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026",
@@ -183,7 +196,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "July 14, 2026",
     "updated": "2026-07-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
@@ -201,7 +214,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "July 13, 2026",
     "updated": "2026-07-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -249,7 +262,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "July 09, 2026",
     "updated": "2026-07-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026",
@@ -272,7 +285,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "July 08, 2026",
     "updated": "2026-07-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026",
@@ -290,7 +303,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "July 06, 2026",
     "updated": "2026-07-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
@@ -303,7 +316,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -316,7 +329,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -334,7 +347,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -352,7 +365,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -375,7 +388,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -393,7 +406,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -406,7 +419,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -419,7 +432,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -432,7 +445,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -460,7 +473,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -478,7 +491,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -501,7 +514,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -514,7 +527,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "June 08, 2026",
     "updated": "2026-06-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
@@ -548,19 +561,6 @@
         "type": "Feature",
         "html": "<p>You can manage and limit the costs associated with BigQuery generative AI\nfunctions by configuring <a href=\"https://docs.cloud.google.com/bigquery/docs/control-genai-costs\">daily token quotas</a>.\nToken-based cost management for BigQuery generative AI functions is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
         "text": "You can manage and limit the costs associated with BigQuery generative AI functions by configuring daily token quotas. Token-based cost management for BigQuery generative AI functions is generally available (GA)."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "June 05, 2026",
-    "updated": "2026-06-05T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_05_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p><em>Cross-cloud Lakehouse</em> now supports AWS Glue as a remote catalog\nprovider (Preview). You can configure federated catalogs to query data stored in\nAWS Glue directly from Google Cloud using BigQuery or\nApache Spark without migrating data or building complex ETL pipelines.</p><p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-lakehouse-aws-glue\">Set up cross-cloud Lakehouse for\nAWS Glue</a>.</p>",
-        "text": "Cross-cloud Lakehouse now supports AWS Glue as a remote catalog provider (Preview). You can configure federated catalogs to query data stored in AWS Glue directly from Google Cloud using BigQuery or Apache Spark without migrating data or building complex ETL pipelines.For more information, see Set up cross-cloud Lakehouse for AWS Glue."
       }
     ]
   }

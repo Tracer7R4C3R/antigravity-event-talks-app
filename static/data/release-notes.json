@@ -1,6 +1,29 @@
 [
   {
     "id": 0,
+    "date": "August 20, 2026",
+    "updated": "2026-08-20T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>BigQuery supports the following table-valued functions in the query editor and\nas part of\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#bigquery-ml-support\">conversational analytics</a>\nto help you analyze your time series data:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend\"><code>ML.TREND</code></a>:\nidentify the directional trajectory of your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-seasonality\"><code>ML.SEASONALITY</code></a>:\nidentify repeating patterns in your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-detect-change-points\"><code>ML.DETECT_CHANGE_POINTS</code></a>:\nidentify intervals where structural shifts occur in your data.</li>\n</ul><p>These functions are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
+        "text": "BigQuery supports the following table-valued functions in the query editor and as part of conversational analytics to help you analyze your time series data: ML.TREND: identify the directional trajectory of your data. ML.SEASONALITY: identify repeating patterns in your data. ML.DETECT_CHANGE_POINTS: identify intervals where structural shifts occur in your data. These functions are in preview."
+      },
+      {
+        "type": "Deprecated",
+        "html": "<p>Starting April 26, 2027, core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery\nGraph</a> will be restricted to the <a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery\nEnterprise and Enterprise Plus editions</a>.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.</p><p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>",
+        "text": "Starting April 26, 2027, core graph processing for BigQuery Graph will be restricted to the BigQuery Enterprise and Enterprise Plus editions. Consequently, we are deprecating support for Standard edition and on-demand billing for core graph processing.Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>The <a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp#available-tools\"><code>run_bq_command</code> tool</a>\n exposes the <code>bq</code> command-line tool within the\nCloud CLI remote MCP server. AI agents can now execute advanced BigQuery\noperations, such as job scheduling, job management, and reservation management,\nthrough a managed MCP endpoint.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/sdk/use-gcloud-mcp\">Use the Cloud CLI remote MCP server</a>. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+        "text": "The run_bq_command tool exposes the bq command-line tool within the Cloud CLI remote MCP server. AI agents can now execute advanced BigQuery operations, such as job scheduling, job management, and reservation management, through a managed MCP endpoint. For more information, see Use the Cloud CLI remote MCP server. This feature is in Preview."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "August 18, 2026",
     "updated": "2026-08-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026",
@@ -13,7 +36,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "August 13, 2026",
     "updated": "2026-08-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026",
@@ -26,7 +49,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "August 12, 2026",
     "updated": "2026-08-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026",
@@ -39,7 +62,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "August 11, 2026",
     "updated": "2026-08-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026",
@@ -52,7 +75,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "August 10, 2026",
     "updated": "2026-08-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026",
@@ -65,7 +88,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "August 03, 2026",
     "updated": "2026-08-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
@@ -88,7 +111,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "July 30, 2026",
     "updated": "2026-07-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
@@ -106,7 +129,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "July 29, 2026",
     "updated": "2026-07-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
@@ -119,7 +142,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "July 27, 2026",
     "updated": "2026-07-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
@@ -152,7 +175,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "July 23, 2026",
     "updated": "2026-07-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026",
@@ -165,7 +188,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "July 20, 2026",
     "updated": "2026-07-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026",
@@ -183,7 +206,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "July 15, 2026",
     "updated": "2026-07-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026",
@@ -196,7 +219,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "July 14, 2026",
     "updated": "2026-07-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
@@ -214,7 +237,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "July 13, 2026",
     "updated": "2026-07-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -262,7 +285,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "July 09, 2026",
     "updated": "2026-07-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026",
@@ -285,7 +308,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "July 08, 2026",
     "updated": "2026-07-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026",
@@ -303,7 +326,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "July 06, 2026",
     "updated": "2026-07-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
@@ -316,7 +339,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -329,7 +352,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -347,7 +370,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -365,7 +388,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -388,7 +411,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -406,7 +429,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -419,7 +442,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -432,7 +455,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -445,7 +468,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -473,7 +496,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -491,7 +514,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -514,7 +537,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "June 10, 2026",
     "updated": "2026-06-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
@@ -523,44 +546,6 @@
         "type": "Feature",
         "html": "<p>BigQuery continuous queries now support the following aggregation functions:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#array_agg\"><code>ARRAY_AGG</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#string_agg\"><code>STRING_AGG</code></a></li>\n</ul><p>Support for these functions is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
         "text": "BigQuery continuous queries now support the following aggregation functions: ARRAY_AGG STRING_AGG Support for these functions is in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "June 08, 2026",
-    "updated": "2026-06-08T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>You can <a href=\"https://docs.cloud.google.com/bigquery/docs/use-cloud-assist#analyze-lineage\">analyze data lineage with Gemini Cloud Assist in\nBigQuery</a>. This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can analyze data lineage with Gemini Cloud Assist in BigQuery. This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use Gemini Cloud Assist to\n<a href=\"https://docs.cloud.google.com/bigquery/docs/use-cloud-assist#schedule_a_query\">schedule queries</a>. This\nfeature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now use Gemini Cloud Assist to schedule queries. This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can use the Google-developed, open source\n<a href=\"https://docs.cloud.google.com/bigquery/docs/jdbc-for-bigquery\">Java Database Connectivity (JDBC) driver for BigQuery</a>\nto connect your Java applications to BigQuery. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "You can use the Google-developed, open source Java Database Connectivity (JDBC) driver for BigQuery to connect your Java applications to BigQuery. This feature is generally available (GA)."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can use custom constraints with Organization Policy to provide more\ngranular control over specific fields for some BigQuery sharing\nresources. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/analytics-hub-custom-constraints\">Manage Sharing data exchanges and listings using custom constraints</a>.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "You can use custom constraints with Organization Policy to provide more granular control over specific fields for some BigQuery sharing resources. For more information, see Manage Sharing data exchanges and listings using custom constraints. This feature is generally available (GA)."
-      },
-      {
-        "type": "Feature",
-        "html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/control-access-to-resources-iam#deny_access_to_a_resource\">IAM deny policies</a>\nfor BigQuery are now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "IAM deny policies for BigQuery are now generally available (GA)."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can manage and limit the costs associated with BigQuery generative AI\nfunctions by configuring <a href=\"https://docs.cloud.google.com/bigquery/docs/control-genai-costs\">daily token quotas</a>.\nToken-based cost management for BigQuery generative AI functions is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "You can manage and limit the costs associated with BigQuery generative AI functions by configuring daily token quotas. Token-based cost management for BigQuery generative AI functions is generally available (GA)."
       }
     ]
   }

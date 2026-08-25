@@ -1,6 +1,19 @@
 [
   {
     "id": 0,
+    "date": "August 24, 2026",
+    "updated": "2026-08-24T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_24_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#monitor_agents_and_conversations\">monitor</a>\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "You can now monitor the performance, adoption, latency, and costs of your data agents and their conversations by using Google Cloud Observability in BigQuery. This feature is in Preview."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "August 20, 2026",
     "updated": "2026-08-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
@@ -23,7 +36,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "August 18, 2026",
     "updated": "2026-08-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026",
@@ -36,7 +49,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "August 13, 2026",
     "updated": "2026-08-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026",
@@ -49,7 +62,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "August 12, 2026",
     "updated": "2026-08-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026",
@@ -62,7 +75,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "August 11, 2026",
     "updated": "2026-08-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026",
@@ -75,7 +88,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "August 10, 2026",
     "updated": "2026-08-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026",
@@ -88,7 +101,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "August 03, 2026",
     "updated": "2026-08-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
@@ -111,7 +124,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "July 30, 2026",
     "updated": "2026-07-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
@@ -129,7 +142,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "July 29, 2026",
     "updated": "2026-07-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
@@ -142,7 +155,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "July 27, 2026",
     "updated": "2026-07-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
@@ -175,7 +188,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "July 23, 2026",
     "updated": "2026-07-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026",
@@ -188,7 +201,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "July 20, 2026",
     "updated": "2026-07-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026",
@@ -206,7 +219,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "July 15, 2026",
     "updated": "2026-07-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026",
@@ -219,7 +232,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "July 14, 2026",
     "updated": "2026-07-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
@@ -237,7 +250,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "July 13, 2026",
     "updated": "2026-07-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -285,7 +298,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "July 09, 2026",
     "updated": "2026-07-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026",
@@ -308,7 +321,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "July 08, 2026",
     "updated": "2026-07-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026",
@@ -326,7 +339,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "July 06, 2026",
     "updated": "2026-07-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
@@ -339,7 +352,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -352,7 +365,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -370,7 +383,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -388,7 +401,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -411,7 +424,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -429,7 +442,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "June 22, 2026",
     "updated": "2026-06-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
@@ -442,7 +455,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "June 17, 2026",
     "updated": "2026-06-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
@@ -455,7 +468,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "June 16, 2026",
     "updated": "2026-06-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026",
@@ -468,7 +481,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "June 15, 2026",
     "updated": "2026-06-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026",
@@ -496,7 +509,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "June 12, 2026",
     "updated": "2026-06-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026",
@@ -514,7 +527,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "June 11, 2026",
     "updated": "2026-06-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026",
@@ -533,19 +546,6 @@
         "type": "Feature",
         "html": "<p>Support for the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code> function</a>\nis restored. You can use the\n<code>AI.KEY_DRIVERS</code> function to identify segments of data that cause statistically significant changes to a summable metric.</p><p>This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
         "text": "Support for the AI.KEY_DRIVERS function is restored. You can use the AI.KEY_DRIVERS function to identify segments of data that cause statistically significant changes to a summable metric.This feature is in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "June 10, 2026",
-    "updated": "2026-06-10T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>BigQuery continuous queries now support the following aggregation functions:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#array_agg\"><code>ARRAY_AGG</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#string_agg\"><code>STRING_AGG</code></a></li>\n</ul><p>Support for these functions is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "BigQuery continuous queries now support the following aggregation functions: ARRAY_AGG STRING_AGG Support for these functions is in Preview."
       }
     ]
   }

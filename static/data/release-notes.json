@@ -1,6 +1,32 @@
 [
   {
     "id": 0,
+    "date": "September 02, 2026",
+    "updated": "2026-09-02T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_02_2026",
+    "updates": [
+      {
+        "type": "Change",
+        "html": "<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_jdbc_driver\">Simba JDBC driver for BigQuery</a>\nis now available.</p>",
+        "text": "An updated version of the Simba JDBC driver for BigQuery is now available."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "date": "September 01, 2026",
+    "updated": "2026-09-01T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_01_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/libraries\">Rust SDK for BigQuery</a> is now in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "The Rust SDK for BigQuery is now in Preview."
+      }
+    ]
+  },
+  {
+    "id": 2,
     "date": "August 31, 2026",
     "updated": "2026-08-31T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
@@ -38,7 +64,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 3,
     "date": "August 27, 2026",
     "updated": "2026-08-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
@@ -61,7 +87,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 4,
     "date": "August 26, 2026",
     "updated": "2026-08-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026",
@@ -79,7 +105,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 5,
     "date": "August 25, 2026",
     "updated": "2026-08-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_25_2026",
@@ -92,7 +118,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 6,
     "date": "August 24, 2026",
     "updated": "2026-08-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_24_2026",
@@ -105,7 +131,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 7,
     "date": "August 20, 2026",
     "updated": "2026-08-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
@@ -128,7 +154,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 8,
     "date": "August 18, 2026",
     "updated": "2026-08-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026",
@@ -141,7 +167,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 9,
     "date": "August 13, 2026",
     "updated": "2026-08-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026",
@@ -154,7 +180,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 10,
     "date": "August 12, 2026",
     "updated": "2026-08-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026",
@@ -167,7 +193,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 11,
     "date": "August 11, 2026",
     "updated": "2026-08-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026",
@@ -180,7 +206,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 12,
     "date": "August 10, 2026",
     "updated": "2026-08-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026",
@@ -193,7 +219,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 13,
     "date": "August 03, 2026",
     "updated": "2026-08-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
@@ -216,7 +242,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 14,
     "date": "July 30, 2026",
     "updated": "2026-07-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
@@ -234,7 +260,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 15,
     "date": "July 29, 2026",
     "updated": "2026-07-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
@@ -247,7 +273,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 16,
     "date": "July 27, 2026",
     "updated": "2026-07-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
@@ -280,7 +306,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 17,
     "date": "July 23, 2026",
     "updated": "2026-07-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026",
@@ -293,7 +319,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 18,
     "date": "July 20, 2026",
     "updated": "2026-07-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026",
@@ -311,7 +337,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 19,
     "date": "July 15, 2026",
     "updated": "2026-07-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026",
@@ -324,7 +350,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 20,
     "date": "July 14, 2026",
     "updated": "2026-07-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
@@ -342,7 +368,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 21,
     "date": "July 13, 2026",
     "updated": "2026-07-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -390,7 +416,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 22,
     "date": "July 09, 2026",
     "updated": "2026-07-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026",
@@ -413,7 +439,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 23,
     "date": "July 08, 2026",
     "updated": "2026-07-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026",
@@ -431,7 +457,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 24,
     "date": "July 06, 2026",
     "updated": "2026-07-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
@@ -444,7 +470,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 25,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -457,7 +483,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 26,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -475,7 +501,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 27,
     "date": "June 29, 2026",
     "updated": "2026-06-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
@@ -493,7 +519,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 28,
     "date": "June 25, 2026",
     "updated": "2026-06-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
@@ -516,7 +542,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 29,
     "date": "June 23, 2026",
     "updated": "2026-06-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026",
@@ -530,32 +556,6 @@
         "type": "Feature",
         "html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics</a> in BigQuery\nis now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA) and includes the following features:</p><ul>\n<li>You can select whether an agent can only use generally available models, or\na mix of preview and generally available models.</li>\n<li>You can change the thinking mode of an agent within a conversation.</li>\n<li>Agents can ask clarifying questions about your input prompt.</li>\n<li>Agent responses include context citations, to help you understand the specific\nsources used to generate the answer.</li>\n<li>Parameters are supported in verified queries.</li>\n<li><p>Agents can use the following AI functions to answer your questions:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-if\"><code>AI.IF</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-score\"><code>AI.SCORE</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-classify\"><code>AI.CLASSIFY</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-similarity\"><code>AI.SIMILARITY</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code></a></li>\n</ul></li>\n<li><p>Conversational analytics supports US MREP and EU MREP\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#locations\">locations</a> that govern\nthe storage of agent and conversation resources, and the location used for\nML processing.</p></li>\n</ul><p>You can also create a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#datasets\">conversation with a dataset</a>.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
         "text": "Conversational analytics in BigQuery is now generally available (GA) and includes the following features: You can select whether an agent can only use generally available models, or a mix of preview and generally available models. You can change the thinking mode of an agent within a conversation. Agents can ask clarifying questions about your input prompt. Agent responses include context citations, to help you understand the specific sources used to generate the answer. Parameters are supported in verified queries. Agents can use the following AI functions to answer your questions: AI.KEY_DRIVERS AI.IF AI.SCORE AI.CLASSIFY AI.SIMILARITY AI.SEARCH Conversational analytics supports US MREP and EU MREP locations that govern the storage of agent and conversation resources, and the location used for ML processing. You can also create a conversation with a dataset. This feature is in preview."
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "date": "June 22, 2026",
-    "updated": "2026-06-22T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>You can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowledge Catalog:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/oracle-transfer#transfer_metadata\">Oracle</a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/mysql-transfer#transfer_metadata\">MySQL</a></li>\n</ul><p>This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can use the BigQuery Data Transfer Service to transfer metadata from the following data sources into Knowledge Catalog: Oracle MySQL This feature is in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "June 17, 2026",
-    "updated": "2026-06-17T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>You can enable <a href=\"https://docs.cloud.google.com/bigquery/docs/autonomous-embedding-generation\">autonomous embedding\ngeneration</a> on new or existing\ntables that you make with the <a href=\"https://docs.cloud.google.com/bigquery/docs/autonomous-embedding-generation#create_an_automatically_generated_embedding_column\"><code>CREATE\nTABLE</code></a>\nor <a href=\"https://docs.cloud.google.com/bigquery/docs/autonomous-embedding-generation#add_an_automatically_generated_embedding_column_to_an_existing_table\"><code>ALTER\nTABLE</code></a>\nstatements. When you do this, BigQuery maintains a column of embeddings on the\ntable based on a source column. When you add or modify data in the source\ncolumn, BigQuery automatically generates or updates the embedding column for\nthat data.</p><p>This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "You can enable autonomous embedding generation on new or existing tables that you make with the CREATE TABLE or ALTER TABLE statements. When you do this, BigQuery maintains a column of embeddings on the table based on a source column. When you add or modify data in the source column, BigQuery automatically generates or updates the embedding column for that data.This feature is generally available (GA)."
       }
     ]
   }

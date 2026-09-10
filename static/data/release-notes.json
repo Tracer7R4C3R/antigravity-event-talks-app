@@ -1,6 +1,32 @@
 [
   {
     "id": 0,
+    "date": "September 09, 2026",
+    "updated": "2026-09-09T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_09_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the following Gemini models:</p><ul>\n<li><code>gemini-3.5-flash-lite</code></li>\n<li><code>gemini-3.6-flash</code></li>\n<li><code>gemini-3.7-flash</code></li>\n</ul>",
+        "text": "BigQuery generative AI functions now support the following Gemini models: gemini-3.5-flash-lite gemini-3.6-flash gemini-3.7-flash"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "date": "September 08, 2026",
+    "updated": "2026-09-08T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_08_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>Conversational analytics now supports predictive modeling questions using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-predict\"><code>AI.PREDICT</code> function</a>.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "Conversational analytics now supports predictive modeling questions using the AI.PREDICT function. This feature is in Preview."
+      }
+    ]
+  },
+  {
+    "id": 2,
     "date": "September 03, 2026",
     "updated": "2026-09-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_03_2026",
@@ -13,7 +39,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 3,
     "date": "September 02, 2026",
     "updated": "2026-09-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_02_2026",
@@ -26,7 +52,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 4,
     "date": "September 01, 2026",
     "updated": "2026-09-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_01_2026",
@@ -39,7 +65,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 5,
     "date": "August 31, 2026",
     "updated": "2026-08-31T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
@@ -77,7 +103,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 6,
     "date": "August 27, 2026",
     "updated": "2026-08-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
@@ -100,7 +126,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 7,
     "date": "August 26, 2026",
     "updated": "2026-08-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026",
@@ -118,7 +144,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 8,
     "date": "August 25, 2026",
     "updated": "2026-08-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_25_2026",
@@ -131,7 +157,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 9,
     "date": "August 24, 2026",
     "updated": "2026-08-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_24_2026",
@@ -144,7 +170,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 10,
     "date": "August 20, 2026",
     "updated": "2026-08-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
@@ -167,7 +193,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 11,
     "date": "August 18, 2026",
     "updated": "2026-08-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026",
@@ -180,7 +206,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 12,
     "date": "August 13, 2026",
     "updated": "2026-08-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026",
@@ -193,7 +219,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 13,
     "date": "August 12, 2026",
     "updated": "2026-08-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026",
@@ -206,7 +232,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 14,
     "date": "August 11, 2026",
     "updated": "2026-08-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026",
@@ -219,7 +245,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 15,
     "date": "August 10, 2026",
     "updated": "2026-08-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026",
@@ -232,7 +258,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 16,
     "date": "August 03, 2026",
     "updated": "2026-08-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
@@ -255,7 +281,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 17,
     "date": "July 30, 2026",
     "updated": "2026-07-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
@@ -273,7 +299,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 18,
     "date": "July 29, 2026",
     "updated": "2026-07-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
@@ -286,7 +312,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 19,
     "date": "July 27, 2026",
     "updated": "2026-07-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026",
@@ -319,7 +345,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 20,
     "date": "July 23, 2026",
     "updated": "2026-07-23T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026",
@@ -332,7 +358,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 21,
     "date": "July 20, 2026",
     "updated": "2026-07-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026",
@@ -350,7 +376,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 22,
     "date": "July 15, 2026",
     "updated": "2026-07-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026",
@@ -363,7 +389,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 23,
     "date": "July 14, 2026",
     "updated": "2026-07-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026",
@@ -381,7 +407,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 24,
     "date": "July 13, 2026",
     "updated": "2026-07-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026",
@@ -429,7 +455,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 25,
     "date": "July 09, 2026",
     "updated": "2026-07-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026",
@@ -452,7 +478,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 26,
     "date": "July 08, 2026",
     "updated": "2026-07-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026",
@@ -470,7 +496,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 27,
     "date": "July 06, 2026",
     "updated": "2026-07-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026",
@@ -483,7 +509,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 28,
     "date": "July 01, 2026",
     "updated": "2026-07-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026",
@@ -496,7 +522,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 29,
     "date": "June 30, 2026",
     "updated": "2026-06-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026",
@@ -510,47 +536,6 @@
         "type": "Change",
         "html": "<p>In the Google Cloud console, <strong>Capacity management</strong> has been renamed <a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-intro\"><strong>Workload management</strong></a>.</p>",
         "text": "In the Google Cloud console, Capacity management has been renamed Workload management."
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "date": "June 29, 2026",
-    "updated": "2026-06-29T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026",
-    "updates": [
-      {
-        "type": "Change",
-        "html": "<p>Effective <em>March 9, 2026</em>, new users are required to have a Cloud Billing\naccount to use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration-intro\">BigQuery Migration Service</a>.\nThis change applies to users starting new projects using BigQuery Migration\nService features, such as SQL translation and migration assessment.</p><p>After <em>May 18, 2026</em>, all users are required to have a Cloud Billing account to\nuse the BigQuery Migration Service.</p><p><a href=\"https://docs.cloud.google.com/bigquery/docs/migration-intro#pricing\">Pricing for the BigQuery Migration Service</a>\nremains without charge.</p>",
-        "text": "Effective March 9, 2026, new users are required to have a Cloud Billing account to use the BigQuery Migration Service. This change applies to users starting new projects using BigQuery Migration Service features, such as SQL translation and migration assessment.After May 18, 2026, all users are required to have a Cloud Billing account to use the BigQuery Migration Service.Pricing for the BigQuery Migration Service remains without charge."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant <a href=\"https://docs.cloud.google.com/bigquery/docs/orchestrate-data-preparations\">data preparations access to Google Drive</a>,\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/schedule-pipelines\">grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog</a>.\nExtended access options are available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now grant data preparations and pipelines access to additional services when running or scheduling them with user credentials for a Google Account. You can grant data preparations access to Google Drive, and grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog. Extended access options are available in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "June 25, 2026",
-    "updated": "2026-06-25T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p><em>Lakehouse</em> now supports BigQuery writes (DML, DDL) and automatic table\nmanagement for Apache Iceberg tables in the Lakehouse runtime catalog\n(Preview).</p><p>This update introduces the following features:</p><p><strong>Read/write interoperability:</strong> Full read and write (DML) support across\n    Managed Service for Apache Spark, open source engines (such as Spark,\n    Flink, and Trino).</p><p><strong>BigQuery SQL DDL and DML:</strong> Create, alter, and delete\n    tables, or modify data using standard SQL DDL and DML statements\n    (<code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>, and <code>MERGE</code>) directly in\n    BigQuery.</p><p><strong>Automatic table management:</strong> Opt in to automatic storage optimization,\n    including compaction and garbage collection.</p><p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/manage-tables\">Apache Iceberg tables</a>\nand <a href=\"https://docs.cloud.google.com/lakehouse/docs/table-options\">Configure table options</a>.</p>",
-        "text": "Lakehouse now supports BigQuery writes (DML, DDL) and automatic table management for Apache Iceberg tables in the Lakehouse runtime catalog (Preview).This update introduces the following features:Read/write interoperability: Full read and write (DML) support across Managed Service for Apache Spark, open source engines (such as Spark, Flink, and Trino).BigQuery SQL DDL and DML: Create, alter, and delete tables, or modify data using standard SQL DDL and DML statements (INSERT, UPDATE, DELETE, and MERGE) directly in BigQuery.Automatic table management: Opt in to automatic storage optimization, including compaction and garbage collection.For more information, see Apache Iceberg tables and Configure table options."
-      },
-      {
-        "type": "Change",
-        "html": "<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
-        "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#vector_search\"><code>VECTOR_SEARCH</code> function</a>\nto combine a semantic search with a lexical (keyword) search. This is known as a\nhybrid search. For tables with autonomous embedding generation enabled, you can\nuse <code>HYBRID</code> mode in the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code></a>\nfunction to simplify your search syntax.</p><p>You can also extend a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_vector_index_statement\">vector index</a>\nto include keyword information to improve the speed of the lexical search\nportion of a hybrid search.</p><p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now use the VECTOR_SEARCH function to combine a semantic search with a lexical (keyword) search. This is known as a hybrid search. For tables with autonomous embedding generation enabled, you can use HYBRID mode in the AI.SEARCH function to simplify your search syntax.You can also extend a vector index to include keyword information to improve the speed of the lexical search portion of a hybrid search.This feature is in Preview."
       }
     ]
   }

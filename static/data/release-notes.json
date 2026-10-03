@@ -1,6 +1,24 @@
 [
   {
     "id": 0,
+    "date": "October 02, 2026",
+    "updated": "2026-10-02T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/libraries\">Rust SDK for BigQuery</a> is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "The Rust SDK for BigQuery is now generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>The <a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview\">Data Engineering\nAgent</a> now supports\nthe <code>gemini-3.7-flash</code> model for the <code>us</code>, <code>eu</code>, and <code>global</code> multi-regional\nendpoints.</p>",
+        "text": "The Data Engineering Agent now supports the gemini-3.7-flash model for the us, eu, and global multi-regional endpoints."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -23,7 +41,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -51,7 +69,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -69,7 +87,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -87,7 +105,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -100,7 +118,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -113,7 +131,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "September 21, 2026",
     "updated": "2026-09-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
@@ -131,7 +149,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "September 17, 2026",
     "updated": "2026-09-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
@@ -144,7 +162,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "September 16, 2026",
     "updated": "2026-09-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
@@ -157,7 +175,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "September 14, 2026",
     "updated": "2026-09-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
@@ -180,7 +198,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "September 10, 2026",
     "updated": "2026-09-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
@@ -208,7 +226,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "September 09, 2026",
     "updated": "2026-09-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_09_2026",
@@ -221,7 +239,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "September 08, 2026",
     "updated": "2026-09-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_08_2026",
@@ -234,7 +252,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "September 03, 2026",
     "updated": "2026-09-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_03_2026",
@@ -247,7 +265,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "September 02, 2026",
     "updated": "2026-09-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_02_2026",
@@ -260,7 +278,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "September 01, 2026",
     "updated": "2026-09-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_01_2026",
@@ -273,7 +291,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "August 31, 2026",
     "updated": "2026-08-31T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
@@ -311,7 +329,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "August 27, 2026",
     "updated": "2026-08-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
@@ -334,7 +352,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "August 26, 2026",
     "updated": "2026-08-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026",
@@ -352,7 +370,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "August 25, 2026",
     "updated": "2026-08-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_25_2026",
@@ -365,7 +383,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "August 24, 2026",
     "updated": "2026-08-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_24_2026",
@@ -378,7 +396,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "August 20, 2026",
     "updated": "2026-08-20T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026",
@@ -401,7 +419,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "August 18, 2026",
     "updated": "2026-08-18T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026",
@@ -414,7 +432,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "August 13, 2026",
     "updated": "2026-08-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026",
@@ -427,7 +445,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "August 12, 2026",
     "updated": "2026-08-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026",
@@ -440,7 +458,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "August 11, 2026",
     "updated": "2026-08-11T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026",
@@ -453,7 +471,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "August 10, 2026",
     "updated": "2026-08-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026",
@@ -466,7 +484,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "August 03, 2026",
     "updated": "2026-08-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026",
@@ -489,7 +507,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "July 30, 2026",
     "updated": "2026-07-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026",
@@ -503,19 +521,6 @@
         "type": "Feature",
         "html": "<p>You can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the <code>tabledata.list</code> method now include a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/auditlogs/rest/Shared.Types/BigQueryAuditMetadata.html#BigQueryAuditMetadata.TableDataRead.FIELDS.ui_download_request\"><code>uiDownloadRequest</code></a>\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
         "text": "You can audit when users download query results by using the BigQuery console. Data Access audit logs for the tabledata.list method now include a uiDownloadRequest field to indicate whether the request was triggered by a UI download. This feature is generally available (GA)."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "July 29, 2026",
-    "updated": "2026-07-29T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>The BigQuery Data Transfer Service now supports <a href=\"https://docs.cloud.google.com/bigquery/docs/klaviyo-transfer-intro#full_or_incremental_transfers\">incremental data transfers</a>\nwhen transferring data from Klaviyo to BigQuery. This feature is supported in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-        "text": "The BigQuery Data Transfer Service now supports incremental data transfers when transferring data from Klaviyo to BigQuery. This feature is supported in Preview."
       }
     ]
   }

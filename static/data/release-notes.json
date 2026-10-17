@@ -1,6 +1,19 @@
 [
   {
     "id": 0,
+    "date": "October 16, 2026",
+    "updated": "2026-10-16T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics in BigQuery</a>\nis now available in the following locations:</p><ul>\n<li><code>northamerica-northeast1</code> (MontrÃ©al)</li>\n<li><code>northamerica-northeast2</code> (Toronto)</li>\n</ul><p>For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#locations\">Locations</a>.</p>",
+        "text": "Conversational analytics in BigQuery is now available in the following locations: northamerica-northeast1 (MontrÃ©al) northamerica-northeast2 (Toronto) For more information, see Locations."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -23,7 +36,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -56,7 +69,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -74,7 +87,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -87,7 +100,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -100,7 +113,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -113,7 +126,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -126,7 +139,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -144,7 +157,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -162,7 +175,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -185,7 +198,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -213,7 +226,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -231,7 +244,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -249,7 +262,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -262,7 +275,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -275,7 +288,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "September 21, 2026",
     "updated": "2026-09-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
@@ -293,7 +306,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "September 17, 2026",
     "updated": "2026-09-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
@@ -306,7 +319,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "September 16, 2026",
     "updated": "2026-09-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
@@ -319,7 +332,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "September 14, 2026",
     "updated": "2026-09-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
@@ -342,7 +355,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "September 10, 2026",
     "updated": "2026-09-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
@@ -370,7 +383,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "September 09, 2026",
     "updated": "2026-09-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_09_2026",
@@ -383,7 +396,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "September 08, 2026",
     "updated": "2026-09-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_08_2026",
@@ -396,7 +409,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "September 03, 2026",
     "updated": "2026-09-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_03_2026",
@@ -409,7 +422,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "September 02, 2026",
     "updated": "2026-09-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_02_2026",
@@ -422,7 +435,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "September 01, 2026",
     "updated": "2026-09-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_01_2026",
@@ -435,7 +448,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "August 31, 2026",
     "updated": "2026-08-31T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
@@ -473,7 +486,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "August 27, 2026",
     "updated": "2026-08-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
@@ -496,7 +509,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "August 26, 2026",
     "updated": "2026-08-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026",
@@ -514,7 +527,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "August 25, 2026",
     "updated": "2026-08-25T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_25_2026",
@@ -523,19 +536,6 @@
         "type": "Feature",
         "html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/tags#data-governance-tags\">data governance tags</a> are\nsupported in Terraform. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
         "text": "BigQuery data governance tags are supported in Terraform. This feature is in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "August 24, 2026",
-    "updated": "2026-08-24T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_24_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#monitor_agents_and_conversations\">monitor</a>\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now monitor the performance, adoption, latency, and costs of your data agents and their conversations by using Google Cloud Observability in BigQuery. This feature is in Preview."
       }
     ]
   }

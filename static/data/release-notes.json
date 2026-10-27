@@ -1,6 +1,29 @@
 [
   {
     "id": 0,
+    "date": "October 26, 2026",
+    "updated": "2026-10-26T00:00:00-07:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>Conversation logging for <a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics in\nBigQuery</a> is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can log data agent conversations to a BigQuery table in\nthe agent's project. For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/conversation-logging-overview\">Conversation logging\noverview</a> and <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#configure_settings\">Configure\nsettings</a>.</p>",
+        "text": "Conversation logging for Conversational analytics in BigQuery is now generally available (GA). You can log data agent conversations to a BigQuery table in the agent's project. For more information, see Conversation logging overview and Configure settings."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>Python user-defined functions now support\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#volume-mounts\">volume mounts</a>,\nwhich let you access dependency files from Cloud Storage directly from your\nPython UDF code. This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+        "text": "Python user-defined functions now support volume mounts, which let you access dependency files from Cloud Storage directly from your Python UDF code. This feature is in Preview."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/string_functions#regexp_extract_groups\"><code>REGEXP_EXTRACT_GROUPS</code> function</a>\nproduces substrings that match multiple capturing groups in a regular\nexpression.</p><p>This function is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "The REGEXP_EXTRACT_GROUPS function produces substrings that match multiple capturing groups in a regular expression.This function is in Preview."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "October 22, 2026",
     "updated": "2026-10-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
@@ -13,7 +36,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "October 21, 2026",
     "updated": "2026-10-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
@@ -26,7 +49,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "October 16, 2026",
     "updated": "2026-10-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
@@ -39,7 +62,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -62,7 +85,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -95,7 +118,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -113,7 +136,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -126,7 +149,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -139,7 +162,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -152,7 +175,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -165,7 +188,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -183,7 +206,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -201,7 +224,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -224,7 +247,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -252,7 +275,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -270,7 +293,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -288,7 +311,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -301,7 +324,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -314,7 +337,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "September 21, 2026",
     "updated": "2026-09-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
@@ -332,7 +355,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "September 17, 2026",
     "updated": "2026-09-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
@@ -345,7 +368,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "September 16, 2026",
     "updated": "2026-09-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
@@ -358,7 +381,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "September 14, 2026",
     "updated": "2026-09-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
@@ -381,7 +404,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "September 10, 2026",
     "updated": "2026-09-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
@@ -409,7 +432,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "September 09, 2026",
     "updated": "2026-09-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_09_2026",
@@ -422,7 +445,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "September 08, 2026",
     "updated": "2026-09-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_08_2026",
@@ -435,7 +458,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "September 03, 2026",
     "updated": "2026-09-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_03_2026",
@@ -448,7 +471,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "September 02, 2026",
     "updated": "2026-09-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_02_2026",
@@ -461,7 +484,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "September 01, 2026",
     "updated": "2026-09-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_01_2026",
@@ -474,7 +497,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "August 31, 2026",
     "updated": "2026-08-31T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026",
@@ -508,29 +531,6 @@
         "type": "Feature",
         "html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a>\nis <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p><p>BigQuery Graph now includes support for the <code>CALL</code>\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-query-statements\">graph query statement</a>,\nand the following path inspection\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-gql-functions\">GQL functions</a>:</p><ul>\n<li><code>IS_ACYCLIC</code></li>\n<li><code>IS_SIMPLE</code></li>\n<li><code>IS_TRAIL</code>.</li>\n</ul>",
         "text": "BigQuery Graph is generally available (GA).BigQuery Graph now includes support for the CALL graph query statement, and the following path inspection GQL functions: IS_ACYCLIC IS_SIMPLE IS_TRAIL."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "August 27, 2026",
-    "updated": "2026-08-27T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026",
-    "updates": [
-      {
-        "type": "Announcement",
-        "html": "<p>Core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a>\nrequires an Enterprise or Enterprise Plus edition reservation. Existing\nallowlisted users can continue to use Standard edition or on-demand billing\nuntil April 26, 2027, after which these billing models will no longer be\nsupported for core graph processing.</p><p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>",
-        "text": "Core graph processing for BigQuery Graph requires an Enterprise or Enterprise Plus edition reservation. Existing allowlisted users can continue to use Standard edition or on-demand billing until April 26, 2027, after which these billing models will no longer be supported for core graph processing.Graph measures will remain available in the Enterprise and Enterprise Plus editions and for queries run using on-demand pricing. Measures are not available in Standard edition."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines\">Data Engineering Agent</a>\nis now <a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-security-privacy-compliance\">HIPAA compliant</a>.\nFor more information, see <a href=\"https://docs.cloud.google.com/docs/security/compliance/hipaa\">HIPAA compliance on Google Cloud</a>.</p>",
-        "text": "The Data Engineering Agent is now HIPAA compliant. For more information, see HIPAA compliance on Google Cloud."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now train models using XGBoost version 2.1 by using the\n<code>XGBOOST_VERSION</code> option. BigQuery uses the XGBoost 3.1.0 library to load and\nmake predictions on XGBoost models. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
-        "text": "You can now train models using XGBoost version 2.1 by using the XGBOOST_VERSION option. BigQuery uses the XGBoost 3.1.0 library to load and make predictions on XGBoost models. This feature is generally available."
       }
     ]
   }

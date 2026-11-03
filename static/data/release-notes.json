@@ -1,6 +1,39 @@
 [
   {
     "id": 0,
+    "date": "November 02, 2026",
+    "updated": "2026-11-02T00:00:00-08:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p><em>Lakehouse</em> <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-cross-cloud-data-access#intelligent-caching\">caching</a>\nfor cross-cloud data access is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA). Cross-cloud caching is disabled by default. You can opt in to caching on\na Lakehouse federated catalog or a BigQuery cross-cloud connection to\ncache remote files in your Google Cloud region. This helps reduce\ncross-cloud egress costs and accelerate subsequent queries.</p><p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-cross-cloud-data-access#intelligent-caching\">About cross-cloud data\naccess</a> and\n<a href=\"https://docs.cloud.google.com/lakehouse/docs/query-remote-data\">Query remote data</a>.</p>",
+        "text": "Lakehouse caching for cross-cloud data access is generally available (GA). Cross-cloud caching is disabled by default. You can opt in to caching on a Lakehouse federated catalog or a BigQuery cross-cloud connection to cache remote files in your Google Cloud region. This helps reduce cross-cloud egress costs and accelerate subsequent queries.For more information, see About cross-cloud data access and Query remote data."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#monitor_agents_and_conversations\">monitor</a>\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can now monitor the performance, adoption, latency, and costs of your data agents and their conversations by using Google Cloud Observability in BigQuery. This feature is generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-parse-document\"><code>AI.PARSE_DOCUMENT</code> function</a>\nto extract layout elements such as titles, headings, paragraphs, lists, tables,\nand images by using the Document AI layout parser to convert unstructured\ndocuments into structured <code>JSON</code> data.</p><p>This function is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can use the AI.PARSE_DOCUMENT function to extract layout elements such as titles, headings, paragraphs, lists, tables, and images by using the Document AI layout parser to convert unstructured documents into structured JSON data.This function is generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/security_functions#secure_context\"><code>SECURE_CONTEXT</code> function</a>\nis now available in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.\n<code>SECURE_CONTEXT</code> returns the value of a request-scoped secure context parameter\nprovided at query runtime, allowing logical views to dynamically filter and\nevaluate data based on context variables such as user attributes, department\nIDs, or tenant identifiers.</p>",
+        "text": "The SECURE_CONTEXT function is now available in Preview. SECURE_CONTEXT returns the value of a request-scoped secure context parameter provided at query runtime, allowing logical views to dynamically filter and evaluate data based on context variables such as user attributes, department IDs, or tenant identifiers."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>The Data Engineering Agent now\nsupports <a href=\"https://docs.cloud.google.com/bigquery/docs/data-engineering-agent-pipelines#bigquery-ai-ml-support\">BigQuery AI, ML, and object functions and\nstatements in generated Dataform SQLX\npipelines and agent instruction files</a>.</p><p>This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "The Data Engineering Agent now supports BigQuery AI, ML, and object functions and statements in generated Dataform SQLX pipelines and agent instruction files.This feature is generally available (GA)."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "October 30, 2026",
     "updated": "2026-10-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_30_2026",
@@ -13,7 +46,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "October 27, 2026",
     "updated": "2026-10-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
@@ -41,7 +74,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "October 26, 2026",
     "updated": "2026-10-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
@@ -64,7 +97,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "October 22, 2026",
     "updated": "2026-10-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
@@ -77,7 +110,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "October 21, 2026",
     "updated": "2026-10-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
@@ -90,7 +123,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "October 16, 2026",
     "updated": "2026-10-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
@@ -103,7 +136,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -126,7 +159,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -159,7 +192,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -177,7 +210,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -190,7 +223,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -203,7 +236,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -216,7 +249,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -229,7 +262,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -247,7 +280,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -265,7 +298,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -288,7 +321,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -316,7 +349,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -334,7 +367,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -352,7 +385,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -365,7 +398,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -378,7 +411,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "September 21, 2026",
     "updated": "2026-09-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
@@ -396,7 +429,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "September 17, 2026",
     "updated": "2026-09-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
@@ -409,7 +442,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "September 16, 2026",
     "updated": "2026-09-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
@@ -422,7 +455,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "September 14, 2026",
     "updated": "2026-09-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
@@ -445,7 +478,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "September 10, 2026",
     "updated": "2026-09-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
@@ -473,7 +506,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "September 09, 2026",
     "updated": "2026-09-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_09_2026",
@@ -486,7 +519,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "September 08, 2026",
     "updated": "2026-09-08T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_08_2026",
@@ -499,7 +532,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "September 03, 2026",
     "updated": "2026-09-03T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_03_2026",
@@ -508,19 +541,6 @@
         "type": "Feature",
         "html": "<p>Conversational analytics now supports questions about\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#analytic_task_support\">market basket analysis</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
         "text": "Conversational analytics now supports questions about market basket analysis. This feature is generally available (GA)."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "September 02, 2026",
-    "updated": "2026-09-02T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_02_2026",
-    "updates": [
-      {
-        "type": "Change",
-        "html": "<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_jdbc_driver\">Simba JDBC driver for BigQuery</a>\nis now available.</p>",
-        "text": "An updated version of the Simba JDBC driver for BigQuery is now available."
       }
     ]
   }

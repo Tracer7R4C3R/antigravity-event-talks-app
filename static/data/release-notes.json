@@ -6,6 +6,11 @@
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
     "updates": [
       {
+        "type": "Feature",
+        "html": "<p>You can now use persistent and temporary\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions#continuous-queries\">SQL user-defined functions (UDFs)</a>\nin <a href=\"https://docs.cloud.google.com/bigquery/docs/continuous-queries#use-sql-udfs\">BigQuery continuous queries</a>\nto encapsulate and reuse custom real-time transformation logic. Only SQL UDFs\nare supported in continuous queries.</p>",
+        "text": "You can now use persistent and temporary SQL user-defined functions (UDFs) in BigQuery continuous queries to encapsulate and reuse custom real-time transformation logic. Only SQL UDFs are supported in continuous queries."
+      },
+      {
         "type": "Change",
         "html": "<p>In <a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-web-ui#studio-overview\">BigQuery Studio</a>,\nthe left pane has been updated with new tab names. The <strong>Classic Explorer</strong> tab\nhas been renamed to the <strong>Data</strong> tab, and the <strong>Repository</strong> tab has been\nrenamed to the <strong>Source control</strong> tab. The <strong>Data</strong> tab now includes the\n<strong>Add data</strong> button and focuses on data hierarchies. These changes are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
         "text": "In BigQuery Studio, the left pane has been updated with new tab names. The Classic Explorer tab has been renamed to the Data tab, and the Repository tab has been renamed to the Source control tab. The Data tab now includes the Add data button and focuses on data hierarchies. These changes are generally available (GA)."

@@ -1,10 +1,43 @@
 [
   {
     "id": 0,
+    "date": "November 06, 2026",
+    "updated": "2026-11-06T00:00:00-08:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_06_2026",
+    "updates": [
+      {
+        "type": "Announcement",
+        "html": "<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a> and run\nGraph Query Language (GQL) queries when you use on-demand pricing.</p>",
+        "text": "You can now use BigQuery Graph and run Graph Query Language (GQL) queries when you use on-demand pricing."
+      },
+      {
+        "type": "Breaking",
+        "html": "<p>Starting January 31, 2027, the <a href=\"https://docs.cloud.google.com/bigquery/docs/shopify-transfer\">BigQuery Data Transfer Service for Shopify\nconnector</a> will no longer support the following fields:</p><ul>\n<li>The <code>legacyMode</code> field from the <code>DeliveryProfile</code> dataset schema</li>\n<li>The <code>permitSkuSharing</code> field from the <code>FulfillmentService</code> dataset schema</li>\n</ul><p>For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/transfer-changes#Jan31-shopify\">January 31, 2027</a>.</p>",
+        "text": "Starting January 31, 2027, the BigQuery Data Transfer Service for Shopify connector will no longer support the following fields: The legacyMode field from the DeliveryProfile dataset schema The permitSkuSharing field from the FulfillmentService dataset schema For more information, see January 31, 2027."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can now use a <a href=\"https://docs.cloud.google.com/bigquery/docs/custom-constraints\">custom organization policy</a>\nto allow or deny specific operations on models in BigQuery. This\nfeature is in <a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>.</p>",
+        "text": "You can now use a custom organization policy to allow or deny specific operations on models in BigQuery. This feature is in preview."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "November 05, 2026",
     "updated": "2026-11-05T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
     "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>In the query execution graph's <a href=\"https://docs.cloud.google.com/bigquery/docs/query-plan-explanation#query_text_heatmap\">query text\nheatmap</a>, you can now\nview and navigate through a hierarchical list of context references, such as\nnested function calls or view references, for stage steps. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "In the query execution graph's query text heatmap, you can now view and navigate through a hierarchical list of context references, such as nested function calls or view references, for stage steps. This feature is generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>In the query execution graph, the <a href=\"https://docs.cloud.google.com/bigquery/docs/query-plan-explanation#query_text_heatmap\">query text\nheatmap</a> now supports\ndisplaying the SQL text for persistent and temporary user-defined functions\n(UDFs). This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "In the query execution graph, the query text heatmap now supports displaying the SQL text for persistent and temporary user-defined functions (UDFs). This feature is generally available (GA)."
+      },
       {
         "type": "Change",
         "html": "<p>The BigQuery <strong>Metadata curation</strong> console page has been removed. You can now\nuse Knowledge Catalog to schedule <a href=\"https://docs.cloud.google.com/knowledge-catalog/docs/cloud-storage-discovery\">Cloud Storage discovery scans</a>,\nmanage <a href=\"https://docs.cloud.google.com/knowledge-catalog/docs/data-profiling-overview\">data profiling</a>\nand <a href=\"https://docs.cloud.google.com/knowledge-catalog/docs/use-auto-data-quality#console\">data quality</a>,\nand perform related data governance tasks.</p>",
@@ -18,7 +51,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "November 03, 2026",
     "updated": "2026-11-03T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
@@ -36,7 +69,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "November 02, 2026",
     "updated": "2026-11-02T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
@@ -48,6 +81,11 @@
       },
       {
         "type": "Feature",
+        "html": "<p><em>Lakehouse</em> supports the following remote catalog providers for cross-cloud\ndata access. This feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a> (GA).</p><ul>\n<li><a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-connection-databricks\">Databricks Unity\nCatalog</a> on\nAmazon Web Services (AWS), Microsoft Azure, or Google Cloud</li>\n<li><a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-connection-aws-glue\">AWS Glue Data\nCatalog</a> on AWS</li>\n<li><a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-connection-snowflake\">Snowflake Horizon\nCatalog</a> on AWS,\nMicrosoft Azure, or Google Cloud</li>\n<li><a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-connection-workday\">Workday Data Lake</a>\non AWS or Google Cloud</li>\n</ul><p>This feature lets you configure federated catalog endpoints to synchronize\ncatalog metadata and query Apache Iceberg tables in remote catalogs directly\nfrom Google Cloud using BigQuery, Managed Service for Apache Spark, and Apache\nSpark without migrating data or building complex ETL pipelines. You can route\nbackground metadata refresh and queries over the public internet or privately\nover Cross-Cloud Interconnect, and protect cross-cloud data access with VPC\nService Controls service perimeters. For Databricks Unity Catalog, you can also\nuse\n<a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-connection-databricks#configure-user-identity-federation\">user identity\nfederation</a>\nto propagate end-user identities on queries for permission enforcement and audit\nlogging.</p><p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-cross-cloud-data-access\">About cross-cloud data\naccess</a>, <a href=\"https://docs.cloud.google.com/lakehouse/docs/query-remote-data\">Query remote\ndata</a>, and <a href=\"https://docs.cloud.google.com/lakehouse/docs/vpc-sc-federated-catalogs\">Use VPC Service Controls with\nfederated catalog endpoints</a>.</p>",
+        "text": "Lakehouse supports the following remote catalog providers for cross-cloud data access. This feature is generally available (GA). Databricks Unity Catalog on Amazon Web Services (AWS), Microsoft Azure, or Google Cloud AWS Glue Data Catalog on AWS Snowflake Horizon Catalog on AWS, Microsoft Azure, or Google Cloud Workday Data Lake on AWS or Google Cloud This feature lets you configure federated catalog endpoints to synchronize catalog metadata and query Apache Iceberg tables in remote catalogs directly from Google Cloud using BigQuery, Managed Service for Apache Spark, and Apache Spark without migrating data or building complex ETL pipelines. You can route background metadata refresh and queries over the public internet or privately over Cross-Cloud Interconnect, and protect cross-cloud data access with VPC Service Controls service perimeters. For Databricks Unity Catalog, you can also use user identity federation to propagate end-user identities on queries for permission enforcement and audit logging.For more information, see About cross-cloud data access, Query remote data, and Use VPC Service Controls with federated catalog endpoints."
+      },
+      {
+        "type": "Feature",
         "html": "<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#monitor_agents_and_conversations\">monitor</a>\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
         "text": "You can now monitor the performance, adoption, latency, and costs of your data agents and their conversations by using Google Cloud Observability in BigQuery. This feature is generally available (GA)."
       },
@@ -55,6 +93,11 @@
         "type": "Feature",
         "html": "<p>You can use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-parse-document\"><code>AI.PARSE_DOCUMENT</code> function</a>\nto extract layout elements such as titles, headings, paragraphs, lists, tables,\nand images by using the Document AI layout parser to convert unstructured\ndocuments into structured <code>JSON</code> data.</p><p>This function is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
         "text": "You can use the AI.PARSE_DOCUMENT function to extract layout elements such as titles, headings, paragraphs, lists, tables, and images by using the Document AI layout parser to convert unstructured documents into structured JSON data.This function is generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can now use BigQuery change history and continuous queries for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/biglake-iceberg-tables-in-bigquery\">Apache Iceberg managed tables</a>\nin Lakehouse.</p><p>You can use the <code>APPENDS</code> table-valued function (TVF) to track rows appended to\nApache Iceberg managed tables over a specified time range, and use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/continuous-queries\">BigQuery continuous queries</a>\nto read incoming data from and write output rows to Apache Iceberg managed\ntables.</p><p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p><p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/change-history\">Work with change\nhistory</a> and <a href=\"https://docs.cloud.google.com/bigquery/docs/continuous-queries-introduction\">Introduction to continuous\nqueries</a>.</p>",
+        "text": "You can now use BigQuery change history and continuous queries for Apache Iceberg managed tables in Lakehouse.You can use the APPENDS table-valued function (TVF) to track rows appended to Apache Iceberg managed tables over a specified time range, and use BigQuery continuous queries to read incoming data from and write output rows to Apache Iceberg managed tables.This feature is generally available (GA).For more information, see Work with change history and Introduction to continuous queries."
       },
       {
         "type": "Feature",
@@ -69,7 +112,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "October 30, 2026",
     "updated": "2026-10-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_30_2026",
@@ -82,7 +125,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "October 27, 2026",
     "updated": "2026-10-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
@@ -105,7 +148,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "October 26, 2026",
     "updated": "2026-10-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
@@ -128,7 +171,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "October 22, 2026",
     "updated": "2026-10-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
@@ -141,7 +184,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "October 21, 2026",
     "updated": "2026-10-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
@@ -154,7 +197,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "October 16, 2026",
     "updated": "2026-10-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
@@ -167,7 +210,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -190,7 +233,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -223,7 +266,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -241,7 +284,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -254,7 +297,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -263,11 +306,16 @@
         "type": "Feature",
         "html": "<p>The <a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview\">BigQuery Data Engineering Agent</a>\nis now available in the <code>asia-northeast1</code> (Tokyo) regional endpoint and supports\nthe gemini-3.5-flash model. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-locations#bigquery-data-engineering-agent\">Where Gemini in BigQuery processes your data</a>.</p><p>This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Generally Available</a>\n(GA).</p>",
         "text": "The BigQuery Data Engineering Agent is now available in the asia-northeast1 (Tokyo) regional endpoint and supports the gemini-3.5-flash model. For more information, see Where Gemini in BigQuery processes your data.This feature is Generally Available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>Lakehouse now supports change data capture (CDC)\ningestion from Delta Lake and Apache Iceberg tables\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>).</p><p>You can now synchronize CDC transaction logs (inserts, updates, deletes) from\nDelta Lake and Apache Iceberg tables into Lakehouse\nApache Iceberg tables using Dataflow batch jobs (for Delta Lake)\nor batch and streaming jobs (for Apache Iceberg). For more information, see\n<a href=\"https://docs.cloud.google.com/lakehouse/docs/migrate-delta-lake-cdc\">Migrate Delta Lake CDC data into Lakehouse using\nDataflow</a> and\n<a href=\"https://docs.cloud.google.com/lakehouse/docs/migrate-iceberg-cdc\">Migrate Apache Iceberg CDC data into Lakehouse using\nDataflow</a>.</p>",
+        "text": "Lakehouse now supports change data capture (CDC) ingestion from Delta Lake and Apache Iceberg tables (Preview).You can now synchronize CDC transaction logs (inserts, updates, deletes) from Delta Lake and Apache Iceberg tables into Lakehouse Apache Iceberg tables using Dataflow batch jobs (for Delta Lake) or batch and streaming jobs (for Apache Iceberg). For more information, see Migrate Delta Lake CDC data into Lakehouse using Dataflow and Migrate Apache Iceberg CDC data into Lakehouse using Dataflow."
       }
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -280,7 +328,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -293,7 +341,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -311,7 +359,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -329,7 +377,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -352,7 +400,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -380,7 +428,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -398,7 +446,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -416,7 +464,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -429,7 +477,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -442,11 +490,16 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "September 21, 2026",
     "updated": "2026-09-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
     "updates": [
+      {
+        "type": "Feature",
+        "html": "<p><em>Lakehouse</em> now supports Workday Data Lake as a remote catalog provider\nfor cross-cloud data access\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>). You can\nconfigure federated catalogs to query data stored in Workday Data Lake\ndirectly from Google Cloud using BigQuery or Apache Spark without\nmigrating data or building complex ETL pipelines.</p><p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-connection-workday\">Set up cross-cloud connection for Workday Data\nLake</a>.</p>",
+        "text": "Lakehouse now supports Workday Data Lake as a remote catalog provider for cross-cloud data access (Preview). You can configure federated catalogs to query data stored in Workday Data Lake directly from Google Cloud using BigQuery or Apache Spark without migrating data or building complex ETL pipelines.For more information, see Set up cross-cloud connection for Workday Data Lake."
+      },
       {
         "type": "Feature",
         "html": "<p>The <strong>Query results</strong> pane in the BigQuery Studio query editor lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/managing-jobs#view-job\">view a short history of recent runs for a query</a>,\nincluding <a href=\"https://docs.cloud.google.com/bigquery/docs/multi-statement-queries#view_multi_statement_query_results\">multi-statement queries</a>,\nwithout having to navigate to the <strong>Job history</strong> tab.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
@@ -460,7 +513,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "September 17, 2026",
     "updated": "2026-09-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
@@ -473,7 +526,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "September 16, 2026",
     "updated": "2026-09-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
@@ -486,7 +539,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "September 14, 2026",
     "updated": "2026-09-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
@@ -509,7 +562,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "September 10, 2026",
     "updated": "2026-09-10T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
@@ -533,19 +586,6 @@
         "type": "Feature",
         "html": "<p><a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#schema-mapping-with-graph\">The Data Engineering Agent now integrates with BigQuery Graph</a>\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.</p><p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
         "text": "The Data Engineering Agent now integrates with BigQuery Graph to provide additional context between your data source and destination schema, and improves schema mapping accuracy for your data engineering pipelines.This feature is generally available (GA)."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "September 09, 2026",
-    "updated": "2026-09-09T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_09_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the following Gemini models:</p><ul>\n<li><code>gemini-3.5-flash-lite</code></li>\n<li><code>gemini-3.6-flash</code></li>\n<li><code>gemini-3.7-flash</code></li>\n</ul>",
-        "text": "BigQuery generative AI functions now support the following Gemini models: gemini-3.5-flash-lite gemini-3.6-flash gemini-3.7-flash"
       }
     ]
   }

@@ -1,6 +1,34 @@
 [
   {
     "id": 0,
+    "date": "November 09, 2026",
+    "updated": "2026-11-09T00:00:00-08:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>To support your FinOps practices, you can now opt in to\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-monitoring#reservation_cost_attribution\">compute cost attribution</a>\nin BigQuery editions. This feature attributes billed compute charges directly to\nthe query projects that use your administration project's reservation capacity.\nAllocating costs based on actual commitment and autoscaling slot usage lets you\naccurately track project-level costs and manage internal chargebacks. This\nfeature is available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "To support your FinOps practices, you can now opt in to compute cost attribution in BigQuery editions. This feature attributes billed compute charges directly to the query projects that use your administration project's reservation capacity. Allocating costs based on actual commitment and autoscaling slot usage lets you accurately track project-level costs and manage internal chargebacks. This feature is available in Preview."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>Query performance troubleshooting and job and system performance comparison in\nthe BigQuery jobs explorer are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#get-job-details\">Troubleshoot job performance</a>\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#compare-jobs\">Diagnose performance regressions by comparing jobs and systems</a>.</p>",
+        "text": "Query performance troubleshooting and job and system performance comparison in the BigQuery jobs explorer are generally available (GA). For more information, see Troubleshoot job performance and Diagnose performance regressions by comparing jobs and systems."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>When you <a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines\">create</a> or\n<a href=\"https://docs.cloud.google.com/bigquery/docs/schedule-pipelines\">schedule</a>\na pipeline, you can specify the maximum number of\nconcurrently executed pipeline tasks. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "When you create or schedule a pipeline, you can specify the maximum number of concurrently executed pipeline tasks. This feature is generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can use\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/compression-functions\">compression functions</a>\nin GoogleSQL to compress or decompress\nbytes or string values by using the Zstandard (Zstd) lossless data compression\nalgorithm. The following functions are supported:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/compression-functions#zstd_compress\"><code>ZSTD_COMPRESS</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/compression-functions#zstd_decompress_to_bytes\"><code>ZSTD_DECOMPRESS_TO_BYTES</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/compression-functions#zstd_decompress_to_string\"><code>ZSTD_DECOMPRESS_TO_STRING</code></a></li>\n</ul><p>These functions are in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
+        "text": "You can use compression functions in GoogleSQL to compress or decompress bytes or string values by using the Zstandard (Zstd) lossless data compression algorithm. The following functions are supported: ZSTD_COMPRESS ZSTD_DECOMPRESS_TO_BYTES ZSTD_DECOMPRESS_TO_STRING These functions are in Preview."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "November 06, 2026",
     "updated": "2026-11-06T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_06_2026",
@@ -23,7 +51,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "November 05, 2026",
     "updated": "2026-11-05T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
@@ -51,7 +79,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "November 03, 2026",
     "updated": "2026-11-03T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
@@ -69,7 +97,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "November 02, 2026",
     "updated": "2026-11-02T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
@@ -112,7 +140,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "October 30, 2026",
     "updated": "2026-10-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_30_2026",
@@ -125,7 +153,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "October 27, 2026",
     "updated": "2026-10-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
@@ -148,7 +176,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "October 26, 2026",
     "updated": "2026-10-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
@@ -171,7 +199,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "October 22, 2026",
     "updated": "2026-10-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
@@ -184,7 +212,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "October 21, 2026",
     "updated": "2026-10-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
@@ -197,7 +225,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "October 16, 2026",
     "updated": "2026-10-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
@@ -210,7 +238,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -233,7 +261,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -266,7 +294,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -284,7 +312,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -297,7 +325,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -315,7 +343,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -328,7 +356,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -341,7 +369,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -359,7 +387,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -377,7 +405,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -400,7 +428,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -428,7 +456,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -446,7 +474,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -464,7 +492,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -477,7 +505,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -490,7 +518,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "September 21, 2026",
     "updated": "2026-09-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
@@ -513,7 +541,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "September 17, 2026",
     "updated": "2026-09-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
@@ -526,7 +554,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "September 16, 2026",
     "updated": "2026-09-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
@@ -539,7 +567,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "September 14, 2026",
     "updated": "2026-09-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
@@ -558,34 +586,6 @@
         "type": "Feature",
         "html": "<p>You can now include a <code>WHERE</code> clause inside of an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate-function-calls\">aggregate function call</a>\nto filter your aggregate function input using a boolean expression.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
         "text": "You can now include a WHERE clause inside of an aggregate function call to filter your aggregate function input using a boolean expression. This feature is in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "September 10, 2026",
-    "updated": "2026-09-10T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>Conversational analytics in BigQuery now supports the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-correlation\"><code>ML.CORRELATION</code></a>\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "Conversational analytics in BigQuery now supports the ML.CORRELATION function to calculate statistical correlations between a target column and one or more metric columns in a table. This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-metrics\"><code>ML.METRICS</code> function</a>\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now use the ML.METRICS function to compute evaluation metrics for machine learning classification or regression tasks on any table or query that contains actual and predicted values. This function lets you evaluate predictions without needing to create or reference a stored model. This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-causal-effect\"><code>AI.CAUSAL_EFFECT</code></a>\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can use the AI.CAUSAL_EFFECT function to quantify the impact of specific interventions on time series data. This feature is in Preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p><a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#schema-mapping-with-graph\">The Data Engineering Agent now integrates with BigQuery Graph</a>\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.</p><p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "The Data Engineering Agent now integrates with BigQuery Graph to provide additional context between your data source and destination schema, and improves schema mapping accuracy for your data engineering pipelines.This feature is generally available (GA)."
       }
     ]
   }

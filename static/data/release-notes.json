@@ -1,6 +1,24 @@
 [
   {
     "id": 0,
+    "date": "November 10, 2026",
+    "updated": "2026-11-10T00:00:00-08:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>You can use <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">graph measures</a>\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-types#measure_type\">Measure expressions</a>\ncan include the following:</p><ul>\n<li>Aggregate function calls</li>\n<li>Expressions within aggregate functions</li>\n<li>Conditional logic within aggregate functions</li>\n<li>Conditional distinct counting</li>\n<li>Scalar operations and expressions outside of aggregate functions</li>\n<li>Combinations of measures wrapped in the <code>AGG</code> function</li>\n</ul><p>To query measures, you transform\nyour graph into a flattened table by using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-sql-queries#graph_expand\"><code>GRAPH_EXPAND</code> TVF</a>,\nand then query measures in that table with the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#agg\"><code>AGG</code> function</a>.\nThe <code>GRAPH_EXPAND</code> function now supports multiple fact tables. To view the\noutput schema of the <code>GRAPH_EXPAND</code> function, use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/system-procedures#bqshow_graph_expand_schema\"><code>BQ.SHOW_GRAPH_EXPAND_SCHEMA</code> system procedure</a>.</p><p>You can define\n<a href=\"https://docs.cloud.google.com/bigquery/docs/graph-schema-overview#specify_options\">extensions</a>\nin the <code>OPTIONS</code> clause of the labels and properties in your graphs, which are\nstring pairs that represent custom metadata for natural language querying.</p><p>Measures and graphs are supported in Data Studio through the\n<a href=\"https://docs.cloud.google.com/data-studio/connect-to-google-bigquery\">BigQuery connector</a>.\nMeasures and graphs are also automatically cataloged in Knowledge Catalog, which\nmakes them searchable by natural language or domain synonyms.</p><p>These features are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can use graph measures to lock an aggregation to a key in order to perform complex aggregations without overcounting. Measure expressions can include the following: Aggregate function calls Expressions within aggregate functions Conditional logic within aggregate functions Conditional distinct counting Scalar operations and expressions outside of aggregate functions Combinations of measures wrapped in the AGG function To query measures, you transform your graph into a flattened table by using the GRAPH_EXPAND TVF, and then query measures in that table with the AGG function. The GRAPH_EXPAND function now supports multiple fact tables. To view the output schema of the GRAPH_EXPAND function, use the BQ.SHOW_GRAPH_EXPAND_SCHEMA system procedure.You can define extensions in the OPTIONS clause of the labels and properties in your graphs, which are string pairs that represent custom metadata for natural language querying.Measures and graphs are supported in Data Studio through the BigQuery connector. Measures and graphs are also automatically cataloged in Knowledge Catalog, which makes them searchable by natural language or domain synonyms.These features are generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-4-carbon</code> model. This model is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+        "text": "BigQuery generative AI functions now support the gemini-4-carbon model. This model is generally available."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "November 09, 2026",
     "updated": "2026-11-09T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
@@ -28,7 +46,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "November 06, 2026",
     "updated": "2026-11-06T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_06_2026",
@@ -51,7 +69,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "November 05, 2026",
     "updated": "2026-11-05T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
@@ -79,7 +97,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "November 03, 2026",
     "updated": "2026-11-03T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
@@ -97,7 +115,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "November 02, 2026",
     "updated": "2026-11-02T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
@@ -140,7 +158,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "October 30, 2026",
     "updated": "2026-10-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_30_2026",
@@ -153,7 +171,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "October 27, 2026",
     "updated": "2026-10-27T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
@@ -176,7 +194,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "October 26, 2026",
     "updated": "2026-10-26T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_26_2026",
@@ -199,7 +217,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "October 22, 2026",
     "updated": "2026-10-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
@@ -212,7 +230,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "October 21, 2026",
     "updated": "2026-10-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
@@ -225,7 +243,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "October 16, 2026",
     "updated": "2026-10-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
@@ -238,7 +256,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -261,7 +279,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -294,7 +312,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -312,7 +330,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -325,7 +343,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -343,7 +361,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -356,7 +374,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -369,7 +387,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -387,7 +405,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -405,7 +423,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -428,7 +446,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -456,7 +474,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -474,7 +492,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -492,7 +510,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -505,7 +523,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -518,7 +536,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "September 21, 2026",
     "updated": "2026-09-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
@@ -541,7 +559,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "September 17, 2026",
     "updated": "2026-09-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
@@ -554,7 +572,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "September 16, 2026",
     "updated": "2026-09-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
@@ -563,29 +581,6 @@
         "type": "Feature",
         "html": "<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-lineage\">migration lineage service</a> to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
         "text": "You can use the migration lineage service to visualize the data flow and connections in your source database and help you plan a BigQuery data warehouse migration. This feature is in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "September 14, 2026",
-    "updated": "2026-09-14T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026",
-    "updates": [
-      {
-        "type": "Change",
-        "html": "<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
-        "text": "An updated version of the Simba ODBC driver for BigQuery is now available."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>Metadata for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a> is\nautomatically ingested and searchable in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/use-knowledge-catalog\">Knowledge Catalog</a>. This feature is\navailable in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
-        "text": "Metadata for BigQuery Graph is automatically ingested and searchable in Knowledge Catalog. This feature is available in preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now include a <code>WHERE</code> clause inside of an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate-function-calls\">aggregate function call</a>\nto filter your aggregate function input using a boolean expression.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now include a WHERE clause inside of an aggregate function call to filter your aggregate function input using a boolean expression. This feature is in Preview."
       }
     ]
   }

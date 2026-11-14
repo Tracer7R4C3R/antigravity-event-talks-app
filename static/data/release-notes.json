@@ -1,6 +1,19 @@
 [
   {
     "id": 0,
+    "date": "November 13, 2026",
+    "updated": "2026-11-13T00:00:00-08:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_13_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>BigQuery connections to <a href=\"https://docs.cloud.google.com/bigquery/docs/connect-to-mysql\">MySQL</a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/connect-to-oracle\">Oracle</a>, and\n<a href=\"https://docs.cloud.google.com/bigquery/docs/connect-to-postgresql\">PostgreSQL</a> are now available and can be\nused to run <a href=\"https://docs.cloud.google.com/bigquery/docs/mysql-federated-queries\">MySQL federated queries</a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/oracle-federated-queries\">Oracle federated queries</a>, and\n<a href=\"https://docs.cloud.google.com/bigquery/docs/postgresql-federated-queries\">PostgreSQL federated queries</a>.\nThese features are in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "BigQuery connections to MySQL, Oracle, and PostgreSQL are now available and can be used to run MySQL federated queries, Oracle federated queries, and PostgreSQL federated queries. These features are in Preview."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "November 12, 2026",
     "updated": "2026-11-12T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_12_2026",
@@ -18,7 +31,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "November 11, 2026",
     "updated": "2026-11-11T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
@@ -41,7 +54,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "November 10, 2026",
     "updated": "2026-11-10T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026",
@@ -59,7 +72,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "November 09, 2026",
     "updated": "2026-11-09T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
@@ -87,7 +100,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "November 06, 2026",
     "updated": "2026-11-06T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_06_2026",
@@ -110,7 +123,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "November 05, 2026",
     "updated": "2026-11-05T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
@@ -138,7 +151,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "November 03, 2026",
     "updated": "2026-11-03T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
@@ -156,7 +169,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "November 02, 2026",
     "updated": "2026-11-02T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
@@ -199,7 +212,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "October 30, 2026",
     "updated": "2026-10-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_30_2026",
@@ -212,7 +225,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "October 22, 2026",
     "updated": "2026-10-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
@@ -225,7 +238,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "October 21, 2026",
     "updated": "2026-10-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
@@ -238,7 +251,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "October 16, 2026",
     "updated": "2026-10-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
@@ -251,7 +264,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -274,7 +287,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -307,7 +320,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -325,7 +338,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -338,7 +351,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -356,7 +369,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -369,7 +382,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -382,7 +395,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -400,7 +413,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -418,7 +431,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -441,7 +454,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -469,7 +482,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -487,7 +500,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -505,7 +518,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -518,7 +531,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -531,7 +544,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "September 21, 2026",
     "updated": "2026-09-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
@@ -554,7 +567,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "September 17, 2026",
     "updated": "2026-09-17T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
@@ -563,19 +576,6 @@
         "type": "Feature",
         "html": "<p>You can <a href=\"https://docs.cloud.google.com/dataform/docs/test-data#unit-tests\">add unit tests</a> to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>",
         "text": "You can add unit tests to pipelines to validate your SQL transformation logic against mock datasets. Unit tests for pipelines are generally available (GA)."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "September 16, 2026",
-    "updated": "2026-09-16T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration/migration-lineage\">migration lineage service</a> to\nvisualize the data flow and connections in your source database and\nhelp you plan a BigQuery data warehouse migration. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can use the migration lineage service to visualize the data flow and connections in your source database and help you plan a BigQuery data warehouse migration. This feature is in Preview."
       }
     ]
   }

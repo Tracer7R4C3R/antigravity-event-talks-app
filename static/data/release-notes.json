@@ -1,6 +1,34 @@
 [
   {
     "id": 0,
+    "date": "November 17, 2026",
+    "updated": "2026-11-17T00:00:00-08:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_17_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>To reduce LLM token consumption and query latency when processing large\ndatasets, enable <a href=\"https://docs.cloud.google.com/bigquery/docs/optimize-ai-functions\">optimized mode</a>\nusing the following <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#managed_ai_functions\">managed AI functions</a>:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-if\"><code>AI.IF</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-classify\"><code>AI.CLASSIFY</code></a></li>\n</ul><p>Optimized mode supports the following:</p><ul>\n<li>More types of queries are in scope for optimized mode.</li>\n<li>Optimized mode supports multi-label classification with <code>AI.CLASSIFY</code>.</li>\n<li>The <strong>Job information</strong> tab in the <strong>Query results</strong> pane shows information\nabout the relative quality of the optimized query results.</li>\n</ul><p>This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "To reduce LLM token consumption and query latency when processing large datasets, enable optimized mode using the following managed AI functions: AI.IF AI.CLASSIFY Optimized mode supports the following: More types of queries are in scope for optimized mode. Optimized mode supports multi-label classification with AI.CLASSIFY. The Job information tab in the Query results pane shows information about the relative quality of the optimized query results. This feature is generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can now use the BigQuery REST API\n(<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/datasets/insert\"><code>datasets.insert</code></a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/datasets/patch\"><code>datasets.patch</code></a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/datasets/update\"><code>datasets.update</code></a>, and\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/rest/v2/datasets/get\"><code>datasets.get</code></a>) to configure\nand monitor <a href=\"https://docs.cloud.google.com/bigquery/docs/data-replication\">cross-region dataset replication</a>\nand to attach or detach failover reservations for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/managed-disaster-recovery\">managed disaster recovery</a>. This\nfeature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can now use the BigQuery REST API (datasets.insert, datasets.patch, datasets.update, and datasets.get) to configure and monitor cross-region dataset replication and to attach or detach failover reservations for managed disaster recovery. This feature is generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can now use the <code>rerank</code> option in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code> function</a>\nto reorder the results of your search by how\nwell the text in the column to search answers the search query. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can now use the rerank option in the AI.SEARCH function to reorder the results of your search by how well the text in the column to search answers the search query. This feature is generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-rank\"><code>AI.RANK</code> function</a>\nto reorder the rows of a table by how\nwell the text in a specified column answers a search query. This function is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can now use the AI.RANK function to reorder the rows of a table by how well the text in a specified column answers a search query. This function is generally available (GA)."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "November 13, 2026",
     "updated": "2026-11-13T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_13_2026",
@@ -13,7 +41,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "November 12, 2026",
     "updated": "2026-11-12T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_12_2026",
@@ -31,7 +59,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "November 11, 2026",
     "updated": "2026-11-11T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
@@ -54,7 +82,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "November 10, 2026",
     "updated": "2026-11-10T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026",
@@ -72,7 +100,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "November 09, 2026",
     "updated": "2026-11-09T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
@@ -100,7 +128,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "November 06, 2026",
     "updated": "2026-11-06T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_06_2026",
@@ -123,7 +151,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "November 05, 2026",
     "updated": "2026-11-05T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
@@ -151,7 +179,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "November 03, 2026",
     "updated": "2026-11-03T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
@@ -169,7 +197,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "November 02, 2026",
     "updated": "2026-11-02T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
@@ -212,7 +240,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "October 30, 2026",
     "updated": "2026-10-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_30_2026",
@@ -225,7 +253,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "October 22, 2026",
     "updated": "2026-10-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
@@ -238,7 +266,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "October 21, 2026",
     "updated": "2026-10-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
@@ -251,7 +279,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "October 16, 2026",
     "updated": "2026-10-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
@@ -264,7 +292,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -287,7 +315,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -320,7 +348,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -338,7 +366,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -351,7 +379,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -369,7 +397,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -382,7 +410,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -395,7 +423,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -413,7 +441,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -431,7 +459,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -454,7 +482,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -482,7 +510,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -500,7 +528,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -518,7 +546,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -531,7 +559,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -544,7 +572,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "September 21, 2026",
     "updated": "2026-09-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
@@ -563,19 +591,6 @@
         "type": "Feature",
         "html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-3.8-flash</code> Gemini model.</p>",
         "text": "BigQuery generative AI functions now support the gemini-3.8-flash Gemini model."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "September 17, 2026",
-    "updated": "2026-09-17T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_17_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>You can <a href=\"https://docs.cloud.google.com/dataform/docs/test-data#unit-tests\">add unit tests</a> to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>",
-        "text": "You can add unit tests to pipelines to validate your SQL transformation logic against mock datasets. Unit tests for pipelines are generally available (GA)."
       }
     ]
   }

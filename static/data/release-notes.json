@@ -1,6 +1,29 @@
 [
   {
     "id": 0,
+    "date": "November 18, 2026",
+    "updated": "2026-11-18T00:00:00-08:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_18_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>Lakehouse supports BigQuery <a href=\"https://docs.cloud.google.com/lakehouse/docs/fine-grained-access-control\">row-level security and column-level security with\ndynamic data masking</a> on Apache\nIceberg tables in the Lakehouse runtime catalog\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">GA</a>). You can\nrestrict which rows principals can see and mask sensitive column values by\nmanaging these policies with GoogleSQL DDL statements in BigQuery. On catalogs that use\ncredential vending mode, the Apache Iceberg REST catalog endpoint vends storage\ncredentials only to principals that have unmasked access to every protected\ncolumn and, if the table has row-level access policies, unfiltered row access.</p>",
+        "text": "Lakehouse supports BigQuery row-level security and column-level security with dynamic data masking on Apache Iceberg tables in the Lakehouse runtime catalog (GA). You can restrict which rows principals can see and mask sensitive column values by managing these policies with GoogleSQL DDL statements in BigQuery. On catalogs that use credential vending mode, the Apache Iceberg REST catalog endpoint vends storage credentials only to principals that have unmasked access to every protected column and, if the table has row-level access policies, unfiltered row access."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can manage and version control SQL scripts and notebooks with\n<a href=\"https://docs.cloud.google.com/bigquery/docs/git-repositories\">BigQuery Studio Git repositories</a>,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can manage and version control SQL scripts and notebooks with BigQuery Studio Git repositories, which provide a streamlined, folder-based integration with remote Git repositories. This feature is generally available (GA)."
+      },
+      {
+        "type": "Feature",
+        "html": "<p>You can query the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/information-schema-row-access-policies\"><code>INFORMATION_SCHEMA.ROW_ACCESS_POLICIES</code> view</a>\nto retrieve metadata about active\n<a href=\"https://docs.cloud.google.com/bigquery/docs/row-level-security-intro\">row-level access policies</a> and inspect\nfilter predicates across a dataset or region. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can query the INFORMATION_SCHEMA.ROW_ACCESS_POLICIES view to retrieve metadata about active row-level access policies and inspect filter predicates across a dataset or region. This feature is generally available (GA)."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "November 17, 2026",
     "updated": "2026-11-17T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_17_2026",
@@ -28,7 +51,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "November 13, 2026",
     "updated": "2026-11-13T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_13_2026",
@@ -41,7 +64,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "November 12, 2026",
     "updated": "2026-11-12T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_12_2026",
@@ -59,7 +82,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "November 11, 2026",
     "updated": "2026-11-11T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
@@ -82,7 +105,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "November 10, 2026",
     "updated": "2026-11-10T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026",
@@ -100,7 +123,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "November 09, 2026",
     "updated": "2026-11-09T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
@@ -128,7 +151,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "November 06, 2026",
     "updated": "2026-11-06T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_06_2026",
@@ -151,7 +174,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "November 05, 2026",
     "updated": "2026-11-05T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
@@ -179,7 +202,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "November 03, 2026",
     "updated": "2026-11-03T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
@@ -197,7 +220,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "November 02, 2026",
     "updated": "2026-11-02T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
@@ -240,7 +263,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "October 30, 2026",
     "updated": "2026-10-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_30_2026",
@@ -253,7 +276,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "October 22, 2026",
     "updated": "2026-10-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
@@ -266,7 +289,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "October 21, 2026",
     "updated": "2026-10-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
@@ -279,7 +302,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "October 16, 2026",
     "updated": "2026-10-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
@@ -292,7 +315,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -315,7 +338,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -348,7 +371,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -366,7 +389,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -379,7 +402,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -397,7 +420,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -410,7 +433,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -423,7 +446,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -441,7 +464,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -459,7 +482,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -482,7 +505,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -510,7 +533,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "September 29, 2026",
     "updated": "2026-09-29T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
@@ -528,7 +551,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "September 28, 2026",
     "updated": "2026-09-28T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_28_2026",
@@ -546,7 +569,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "September 24, 2026",
     "updated": "2026-09-24T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026",
@@ -559,7 +582,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "September 22, 2026",
     "updated": "2026-09-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_22_2026",
@@ -568,29 +591,6 @@
         "type": "Feature",
         "html": "<p>You can now <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#publish-agent-gemini-enterprise\">publish a BigQuery data agent in\nGemini Enterprise</a>\nby registering the agent with Agent Registry and importing it using\ndefault Google-managed credentials. When\nBigQuery and Gemini Enterprise are in the same\nGoogle Cloud project and configured with a matching\n<a href=\"https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/gateways/agent-gateway-overview\">Agent Gateway</a>\nregion, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or\nconfigure OAuth client credentials.</p><p>These features are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
         "text": "You can now publish a BigQuery data agent in Gemini Enterprise by registering the agent with Agent Registry and importing it using default Google-managed credentials. When BigQuery and Gemini Enterprise are in the same Google Cloud project and configured with a matching Agent Gateway region, you don't need to manually copy the Agent-to-Agent (A2A) JSON card or configure OAuth client credentials.These features are in Preview."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "September 21, 2026",
-    "updated": "2026-09-21T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p><em>Lakehouse</em> now supports Workday Data Lake as a remote catalog provider\nfor cross-cloud data access\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>). You can\nconfigure federated catalogs to query data stored in Workday Data Lake\ndirectly from Google Cloud using BigQuery or Apache Spark without\nmigrating data or building complex ETL pipelines.</p><p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-connection-workday\">Set up cross-cloud connection for Workday Data\nLake</a>.</p>",
-        "text": "Lakehouse now supports Workday Data Lake as a remote catalog provider for cross-cloud data access (Preview). You can configure federated catalogs to query data stored in Workday Data Lake directly from Google Cloud using BigQuery or Apache Spark without migrating data or building complex ETL pipelines.For more information, see Set up cross-cloud connection for Workday Data Lake."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>The <strong>Query results</strong> pane in the BigQuery Studio query editor lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/managing-jobs#view-job\">view a short history of recent runs for a query</a>,\nincluding <a href=\"https://docs.cloud.google.com/bigquery/docs/multi-statement-queries#view_multi_statement_query_results\">multi-statement queries</a>,\nwithout having to navigate to the <strong>Job history</strong> tab.\nThis feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-        "text": "The Query results pane in the BigQuery Studio query editor lets you view a short history of recent runs for a query, including multi-statement queries, without having to navigate to the Job history tab. This feature is generally available (GA)."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-3.8-flash</code> Gemini model.</p>",
-        "text": "BigQuery generative AI functions now support the gemini-3.8-flash Gemini model."
       }
     ]
   }

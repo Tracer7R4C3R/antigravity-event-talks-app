@@ -1,10 +1,33 @@
 [
   {
     "id": 0,
+    "date": "November 25, 2026",
+    "updated": "2026-11-25T00:00:00-08:00",
+    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_25_2026",
+    "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>You can use <a href=\"https://docs.cloud.google.com/bigquery/docs/cross-cloud-connections\">cross-cloud connections</a> to\nquery data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions with\nmore feature availability than standard connections that use BigQuery Omni. This\nfeature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+        "text": "You can use cross-cloud connections to query data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions with more feature availability than standard connections that use BigQuery Omni. This feature is generally available (GA)."
+      },
+      {
+        "type": "Deprecated",
+        "html": "<p>The BigQuery Storage API v1beta1 is deprecated and will be shut down on August 31, 2027.</p><p>Key milestone dates:</p><ul>\n<li><strong>Nov 20, 2026:</strong> Access to the BigQuery Storage API v1beta1 is restricted to projects that recorded active usage between March 1, 2026, and August 31, 2026.</li>\n<li><strong>August 31, 2027:</strong> The BigQuery Storage API v1beta1 will be fully shut down. After this date, calls to the v1beta1 endpoint will fail with a <code>NOT_FOUND</code> error.</li>\n</ul><p><strong>What you need to do:</strong></p><p>To prevent service disruption, migrate your workloads from <code>v1beta1</code> to the generally available <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/storage/rpc/google.cloud.bigquery.storage.v1\">BigQuery Storage API v1</a>. The <code>v1</code> API is backward-compatible with <code>v1beta1</code>.</p><ul>\n<li><strong>SDKs and connectors:</strong> If you use connectors or client libraries, update them to the latest versions to ensure they default to the <code>v1</code> API:\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers\">Simba ODBC/JDBC for BigQuery</a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/odbc-for-bigquery\">Google BigQuery ODBC</a> / <a href=\"https://docs.cloud.google.com/bigquery/docs/jdbc-for-bigquery\">JDBC driver</a></li>\n<li><a href=\"https://trino.io/docs/current/connector/bigquery.html\">Trino BigQuery plugin</a></li>\n<li><a href=\"https://beam.apache.org/documentation/io/built-in/google-bigquery/\">Apache Beam BigQuery connector</a></li>\n<li><a href=\"https://github.com/GoogleCloudDataproc/spark-bigquery-connector\">Spark BigQuery connector</a></li>\n<li><a href=\"https://spotify.github.io/scio/io/BigQuery.html\">Scio BigQuery plugin</a></li>\n</ul></li>\n<li><strong>Custom code:</strong> If your applications call the <code>v1beta1</code> API directly (for example, using gRPC), update your code to target the <code>v1</code> API endpoint (<code>google.cloud.bigquery.storage.v1</code>).</li>\n</ul><p>For more information, see the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/storage\">BigQuery Storage API reference</a>.</p><p>If you are using <code>v1beta1</code> and have concerns with this deprecation schedule, please contact us via a support case.</p>",
+        "text": "The BigQuery Storage API v1beta1 is deprecated and will be shut down on August 31, 2027.Key milestone dates: Nov 20, 2026: Access to the BigQuery Storage API v1beta1 is restricted to projects that recorded active usage between March 1, 2026, and August 31, 2026. August 31, 2027: The BigQuery Storage API v1beta1 will be fully shut down. After this date, calls to the v1beta1 endpoint will fail with a NOT_FOUND error. What you need to do:To prevent service disruption, migrate your workloads from v1beta1 to the generally available BigQuery Storage API v1. The v1 API is backward-compatible with v1beta1. SDKs and connectors: If you use connectors or client libraries, update them to the latest versions to ensure they default to the v1 API: Simba ODBC/JDBC for BigQuery Google BigQuery ODBC / JDBC driver Trino BigQuery plugin Apache Beam BigQuery connector Spark BigQuery connector Scio BigQuery plugin Custom code: If your applications call the v1beta1 API directly (for example, using gRPC), update your code to target the v1 API endpoint (google.cloud.bigquery.storage.v1). For more information, see the BigQuery Storage API reference.If you are using v1beta1 and have concerns with this deprecation schedule, please contact us via a support case."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "date": "November 24, 2026",
     "updated": "2026-11-24T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_24_2026",
     "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>The following table-valued functions are now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA) in the query editor and as part of\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#bigquery-ml-support\">conversational analytics</a>\nto help you analyze your data:</p><ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend\"><code>ML.TREND</code></a>:\nidentify the directional trajectory of your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-seasonality\"><code>ML.SEASONALITY</code></a>:\nidentify repeating patterns in your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-detect-change-points\"><code>ML.DETECT_CHANGE_POINTS</code></a>:\nidentify intervals where structural shifts occur in your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-correlation\"><code>ML.CORRELATION</code></a>:\nidentify the statistical correlation between a target column and one or more\nmetric columns.</li>\n</ul>",
+        "text": "The following table-valued functions are now generally available (GA) in the query editor and as part of conversational analytics to help you analyze your data: ML.TREND: identify the directional trajectory of your data. ML.SEASONALITY: identify repeating patterns in your data. ML.DETECT_CHANGE_POINTS: identify intervals where structural shifts occur in your data. ML.CORRELATION: identify the statistical correlation between a target column and one or more metric columns."
+      },
       {
         "type": "Feature",
         "html": "<p>The built-in text embedding model <code>embeddinggemma-300m</code> in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed\"><code>AI.EMBED</code></a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-similarity\"><code>AI.SIMILARITY</code></a>\nfunctions is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
@@ -18,11 +41,16 @@
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "date": "November 23, 2026",
     "updated": "2026-11-23T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_23_2026",
     "updates": [
+      {
+        "type": "Feature",
+        "html": "<p>Version 1.1 of the <a href=\"https://docs.cloud.google.com/bigquery/docs/tabfm-model\">TabFM</a> model is now available\nas the default model for the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-predict\"><code>AI.PREDICT</code></a>\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-evaluate\"><code>AI.EVALUATE</code></a>\nfunctions.</p><p>Version 1.1 expands input limits to 80,000 sampled training rows (up\nfrom 10,000) and 128 feature columns (up from 50). This model reduces latency by\nup to 50xâinteractive queries return predictions in around 1 second, and you can\nscore millions of rows in a single BigQuery job. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "Version 1.1 of the TabFM model is now available as the default model for the AI.PREDICT and AI.EVALUATE functions.Version 1.1 expands input limits to 80,000 sampled training rows (up from 10,000) and 128 feature columns (up from 50). This model reduces latency by up to 50xâinteractive queries return predictions in around 1 second, and you can score millions of rows in a single BigQuery job. This feature is in Preview."
+      },
       {
         "type": "Feature",
         "html": "<p>The <code>reservation_override_mode</code> and <code>disable_on_demand_billing</code>\n<a href=\"https://docs.cloud.google.com/bigquery/docs/default-configuration#reservation-controls\">reservation and billing controls</a>\nare\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use these regional options with the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#project_set_options_list\"><code>ALTER PROJECT SET OPTIONS</code> and <code>ALTER ORGANIZATION SET OPTIONS</code> statements</a>\nto control whether queries can override assigned reservations to on-demand\nbilling or require reservation slots.</p>",
@@ -30,18 +58,13 @@
       },
       {
         "type": "Feature",
-        "html": "<p>Version 1.1 of the <a href=\"https://docs.cloud.google.com/bigquery/docs/tabfm-model\">TabFM</a> model is now available\nand is the default model used by the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-predict\"><code>AI.PREDICT</code></a>\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-evaluate\"><code>AI.EVALUATE</code></a>\nfunctions. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
-        "text": "Version 1.1 of the TabFM model is now available and is the default model used by the AI.PREDICT and AI.EVALUATE functions. This feature is in preview."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can now use the built-in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed#choose_a_model\"><code>embeddinggemma-2</code> model</a>\nin the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed\"><code>AI.EMBED</code> function</a>.\nThis model has a long context window, is designed for embedding text and code,\nand uses your BigQuery slots to generate embeddings at scale.\nThis model is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-        "text": "You can now use the built-in embeddinggemma-2 model in the AI.EMBED function. This model has a long context window, is designed for embedding text and code, and uses your BigQuery slots to generate embeddings at scale. This model is in Preview."
+        "html": "<p>You can now use the built-in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed#choose_a_model\"><code>embeddinggemma-2</code> model</a>\nin the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed\"><code>AI.EMBED</code> function</a>.\nThis model supports an 8,192-token context window and is designed for embedding\nlong text and code at scale directly in BigQuery. The charges for this model are\nbased on <a href=\"https://docs.cloud.google.com/bigquery/pricing#compute-pricing-models\">BigQuery compute pricing</a>\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-embed#billing_and_permissions\">model input tokens</a>.\nThis model is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+        "text": "You can now use the built-in embeddinggemma-2 model in the AI.EMBED function. This model supports an 8,192-token context window and is designed for embedding long text and code at scale directly in BigQuery. The charges for this model are based on BigQuery compute pricing and model input tokens. This model is in Preview."
       }
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "November 19, 2026",
     "updated": "2026-11-19T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_19_2026",
@@ -65,16 +88,11 @@
         "type": "Security",
         "html": "<p>A path traversal vulnerability in workspace directory handling and Git\nintegration was discovered in Dataform, BigQuery Studio, and Colab Enterprise.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/security-bulletins#gcp-2026-084\">GCP-2026-084</a>\nsecurity bulletin.</p>",
         "text": "A path traversal vulnerability in workspace directory handling and Git integration was discovered in Dataform, BigQuery Studio, and Colab Enterprise. For more information, see the GCP-2026-084 security bulletin."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-4-neon</code> model. This model is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
-        "text": "BigQuery generative AI functions now support the gemini-4-neon model. This model is generally available."
       }
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "November 18, 2026",
     "updated": "2026-11-18T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_18_2026",
@@ -97,7 +115,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "November 17, 2026",
     "updated": "2026-11-17T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_17_2026",
@@ -125,7 +143,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "November 13, 2026",
     "updated": "2026-11-13T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_13_2026",
@@ -138,7 +156,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "November 12, 2026",
     "updated": "2026-11-12T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_12_2026",
@@ -156,7 +174,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "November 11, 2026",
     "updated": "2026-11-11T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026",
@@ -184,7 +202,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "November 10, 2026",
     "updated": "2026-11-10T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026",
@@ -202,7 +220,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "November 09, 2026",
     "updated": "2026-11-09T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026",
@@ -230,7 +248,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "November 06, 2026",
     "updated": "2026-11-06T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_06_2026",
@@ -253,7 +271,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "November 05, 2026",
     "updated": "2026-11-05T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026",
@@ -281,7 +299,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "November 03, 2026",
     "updated": "2026-11-03T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_03_2026",
@@ -299,7 +317,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "November 02, 2026",
     "updated": "2026-11-02T00:00:00-08:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026",
@@ -342,7 +360,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "October 30, 2026",
     "updated": "2026-10-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_30_2026",
@@ -355,7 +373,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "October 22, 2026",
     "updated": "2026-10-22T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_22_2026",
@@ -368,7 +386,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "October 21, 2026",
     "updated": "2026-10-21T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_21_2026",
@@ -381,7 +399,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "October 16, 2026",
     "updated": "2026-10-16T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_16_2026",
@@ -394,7 +412,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "October 15, 2026",
     "updated": "2026-10-15T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_15_2026",
@@ -417,7 +435,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "October 14, 2026",
     "updated": "2026-10-14T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026",
@@ -450,7 +468,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "October 13, 2026",
     "updated": "2026-10-13T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026",
@@ -468,7 +486,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "date": "October 12, 2026",
     "updated": "2026-10-12T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_12_2026",
@@ -481,7 +499,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "date": "October 09, 2026",
     "updated": "2026-10-09T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026",
@@ -499,7 +517,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "October 07, 2026",
     "updated": "2026-10-07T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_07_2026",
@@ -512,7 +530,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "October 06, 2026",
     "updated": "2026-10-06T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_06_2026",
@@ -525,7 +543,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "October 05, 2026",
     "updated": "2026-10-05T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_05_2026",
@@ -543,7 +561,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "date": "October 02, 2026",
     "updated": "2026-10-02T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_02_2026",
@@ -561,7 +579,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "October 01, 2026",
     "updated": "2026-10-01T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_01_2026",
@@ -584,7 +602,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "September 30, 2026",
     "updated": "2026-09-30T00:00:00-07:00",
     "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_30_2026",
@@ -608,24 +626,6 @@
         "type": "Feature",
         "html": "<p>You can now view the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/query-plan-explanation#dml_steps\"><code>UPDATE</code>, <code>DELETE</code>, <code>MERGE</code></a>,\nand\n<a href=\"https://docs.cloud.google.com/bigquery/docs/query-plan-explanation#export_step\"><code>EXPORT</code></a>\nexecution steps in your query plans.</p>",
         "text": "You can now view the UPDATE, DELETE, MERGE, and EXPORT execution steps in your query plans."
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "date": "September 29, 2026",
-    "updated": "2026-09-29T00:00:00-07:00",
-    "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026",
-    "updates": [
-      {
-        "type": "Feature",
-        "html": "<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code> function</a>\nis now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use the <code>AI.KEY_DRIVERS</code> function to identify segments of data\nthat cause statistically significant changes to a summable metric.</p>",
-        "text": "The AI.KEY_DRIVERS function is now generally available (GA). You can use the AI.KEY_DRIVERS function to identify segments of data that cause statistically significant changes to a summable metric."
-      },
-      {
-        "type": "Feature",
-        "html": "<p>You can query the <a href=\"https://docs.cloud.google.com/bigquery/docs/information-schema-failover-history\"><code>INFORMATION_SCHEMA.FAILOVER_HISTORY</code>\nview</a> to retrieve a near\nreal-time list of failover events for reservations within an administration\nproject that use <a href=\"https://docs.cloud.google.com/bigquery/docs/managed-disaster-recovery\">managed disaster\nrecovery</a>.</p><p>This feature is now in\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>).</p>",
-        "text": "You can query the INFORMATION_SCHEMA.FAILOVER_HISTORY view to retrieve a near real-time list of failover events for reservations within an administration project that use managed disaster recovery.This feature is now in (Preview)."
       }
     ]
   }
